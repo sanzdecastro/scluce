@@ -122,8 +122,8 @@ nav {
 
 section {
     &:first-of-type {
-        @apply 
-        h-[calc(100dvh-var(--spacing-header))];
+        /* @apply 
+        h-[calc(100dvh-var(--spacing-header))]; */
     }
     @apply
     relative
