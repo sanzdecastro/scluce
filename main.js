@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.set(dipticClosed, {
     rotate: 220,
     xPercent: 100,
-    transformOrigin: "center",
+    transformOrigin: "50% 50%",
   });
 
   gsap.set(dipticOpened, {
@@ -201,28 +201,38 @@ document.addEventListener("DOMContentLoaded", function () {
       xPercent: 0,
     });
 
-  gsap.to(dipticClosed, {
-    rotate: -151,
-    xPercent: -500,
-    yPercent: 20,
-    scrollTrigger: {
-      // trigger: sectionDiptics,
-      start: "top top",
-      // end: "center center",
-      // markers: true,
-      scrub: true,
-    },
-  });
+  if (windowWidth < 768) {
+    gsap.to(dipticClosed, {
+      rotate: -251,
+      xPercent: -800,
+      transformOrigin: "center center",
+      yPercent: 0,
+      scrollTrigger: {
+        transformOrigin: "center center",
+        start: "top top",
+        scrub: true,
+      },
+    });
+  } else {
+    gsap.to(dipticClosed, {
+      rotate: -51,
+      xPercent: -300,
+      transformOrigin: "center center",
+      yPercent: 0,
+      scrollTrigger: {
+        transformOrigin: "center center",
+        start: "top top",
+        scrub: true,
+      },
+    });
+  }
 
   gsap.to(dipticOpened, {
     rotate: -6,
     xPercent: 20,
     yPercent: 40,
     scrollTrigger: {
-      // trigger: sectionDiptics,
       start: "top top",
-      // end: "center center",
-      // markers: true,
       scrub: true,
     },
   });
@@ -348,13 +358,12 @@ document.addEventListener("DOMContentLoaded", function () {
   if (windowWidth > 768) {
 
     gsap.set(sectionPrePhoto, {
-      yPercent: -400,
-      autoAlpha: 0,
+      yPercent: -10,
     });
 
     gsap.to(PrePhoto, {
       rotate: -20,
-      xPercent: 0,
+      xPercent: 10,
       scrollTrigger: {
         start: "top top",
         // markers: true,
@@ -362,32 +371,6 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
 
-    const tlAnimationPrePhoto = gsap.timeline({
-      scrollTrigger: {
-        trigger: firstSection,
-        start: "top top",
-        // markers: true,
-        scrub: true,
-      },
-    });
-  
-    tlAnimationPrePhoto
-      .to(sectionPrePhoto, {
-        autoAlpha: 1,
-        yPercent: -395,
-      })
-      .to(sectionPrePhoto, {
-        yPercent: -300,
-        xPercent: 10,
-      })
-      .to(sectionPrePhoto, {
-        yPercent: -250,
-        xPercent: 5,
-      })
-      .to(sectionPrePhoto, {
-        yPercent: 0,
-        xPercent: 0,
-      });
   } else {
     gsap.to(PrePhoto, {
       rotate: -100,
@@ -423,7 +406,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Change Bakcground Color
 
-  const body = document.querySelector("body");
+  const body = document.querySelector(".page-template-landing-euroluce");
   const introduction = document.querySelector(".introduction");
   const text = document.querySelectorAll(
     ".introduction .title, .introduction .text"

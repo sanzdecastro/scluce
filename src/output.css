@@ -260,6 +260,11 @@
   font-display: swap;
   font-style: normal;
 }
+@media (max-width: 768px) {
+  :root {
+    --spacing-w-product-card: 100%;
+  }
+}
 html, body, main {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -276,12 +281,7 @@ html[lang="es-ES"] {
     display: none;
   }
 }
-.euroluce-landing {
-  @media (max-width: 768px) {
-    :root {
-      --spacing-w-product-card: 100%;
-    }
-  }
+.euroluce-landing, .page-template-landing-euroluce {
   h1, h2, h3, h4, h5 {
     padding-bottom: var(--spacing-nav-y);
     font-family: var(--font-intl);
@@ -402,6 +402,9 @@ html[lang="es-ES"] {
     height: 80dvh;
     align-items: flex-start;
     @media (width >= 48rem) {
+      margin-top: 30vh;
+    }
+    @media (width >= 48rem) {
       height: 130dvh;
     }
     .diptic-opened {
@@ -449,6 +452,7 @@ html[lang="es-ES"] {
   }
   .pre-photos {
     z-index: 6;
+    height: 75dvh;
     .pre-photo {
       width: 100vw;
       @media (width >= 48rem) {
@@ -460,11 +464,14 @@ html[lang="es-ES"] {
     }
   }
   .main-photos {
-    height: 100dvh;
+    height: 80dvh;
+    @media (width >= 48rem) {
+      height: 100dvh;
+    }
     .main-photo {
       width: 110vw;
       @media (width >= 48rem) {
-        height: 100dvh;
+        height: 120dvh;
       }
       @media (width >= 48rem) {
         width: auto;

@@ -87,35 +87,40 @@
 
 }
 
+@media (max-width: 768px) {
+    :root {
+        --spacing-w-product-card: 100%;
+    }
+}
+
+
+    html, body, main {
+        -webkit-font-smoothing: antialiased; /* Para navegadores basados en WebKit */
+        -moz-osx-font-smoothing: grayscale;   /* Para Firefox en macOS */
+        @apply
+        overflow-x-hidden
+        w-[100vw];
+    }
     
-html, body, main {
-    -webkit-font-smoothing: antialiased; /* Para navegadores basados en WebKit */
-    -moz-osx-font-smoothing: grayscale;   /* Para Firefox en macOS */
-    @apply
-    overflow-x-hidden
-    w-[100vw];
-}
-
-html[lang="en-US"] {
-    .lang-es {
-        @apply
-        hidden;
-    }
-}
-
-html[lang="es-ES"] {
-    .lang-en {
-        @apply
-        hidden;
-    }
-}
-
-.euroluce-landing {
-    @media (max-width: 768px) {
-        :root {
-            --spacing-w-product-card: 100%;
+    html[lang="en-US"] {
+        .lang-es {
+            @apply
+            hidden;
         }
     }
+    
+    html[lang="es-ES"] {
+        .lang-en {
+            @apply
+            hidden;
+        }
+    }
+ 
+
+
+.euroluce-landing, .page-template-landing-euroluce {
+
+    
     
     h1, h2, h3, h4, h5 {
         @apply
@@ -255,6 +260,7 @@ html[lang="es-ES"] {
     
     .diptics {
         @apply
+        md:mt-[30vh]
         items-start
         h-[80dvh]
         md:h-[130dvh]
@@ -302,9 +308,11 @@ html[lang="es-ES"] {
     
     .pre-photos {
         @apply
+        h-[75dvh]
         z-6;
         .pre-photo {
             @apply
+            
             w-[100vw]
             md:w-auto
             md:h-[75dvh];
@@ -313,14 +321,15 @@ html[lang="es-ES"] {
     
     .main-photos {
         @apply
-        h-[100dvh];
+        h-[80dvh]
+        md:h-[100dvh];
     
         .main-photo {
             @apply
             w-[110vw]
             md:w-auto
             md:max-w-none
-            md:h-[100dvh];
+            md:h-[120dvh];
         }
     }
     
