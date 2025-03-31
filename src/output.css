@@ -453,6 +453,9 @@ html[lang="es-ES"] {
   .pre-photos {
     z-index: 6;
     height: 75dvh;
+    @media (width >= 48rem) {
+      height: 130dvh;
+    }
     .pre-photo {
       width: 100vw;
       @media (width >= 48rem) {

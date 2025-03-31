@@ -309,6 +309,7 @@
     .pre-photos {
         @apply
         h-[75dvh]
+        md:h-[130dvh]
         z-6;
         .pre-photo {
             @apply

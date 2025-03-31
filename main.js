@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const potato1 = document.querySelectorAll(".potato1");
   const potato2 = document.querySelector(".potato2");
 
-
   if (windowWidth < 768) {
     gsap.set(sectionPotatos, {
       yPercent: -110,
@@ -97,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
       yPercent: -100,
     });
   }
-  
 
   gsap.set(potato1, {
     xPercent: 50,
@@ -247,7 +245,6 @@ document.addEventListener("DOMContentLoaded", function () {
       yPercent: 0,
       xPercent: 0,
     });
-  
   } else {
     gsap.set(sectionBookmarks, {
       yPercent: -500,
@@ -264,21 +261,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     tlAnimationBookmarks
-    .to(sectionBookmarks, {
-      yPercent: -350,
-      xPercent: 0,
-    })
-    .to(sectionBookmarks, {
-      yPercent: -200,
-      xPercent: 0,
-    })
-    .to(sectionBookmarks, {
-      yPercent: 0,
-      xPercent: 0,
-    });
-  
+      .to(sectionBookmarks, {
+        yPercent: -350,
+        xPercent: 0,
+      })
+      .to(sectionBookmarks, {
+        yPercent: -200,
+        xPercent: 0,
+      })
+      .to(sectionBookmarks, {
+        yPercent: 0,
+        xPercent: 0,
+      });
   }
-  
 
   gsap.set(bookmarkFront, {
     rotate: 90,
@@ -294,9 +289,6 @@ document.addEventListener("DOMContentLoaded", function () {
     transformOrigin: "center",
   });
 
-  
-
-  
   if (windowWidth < 768) {
     gsap.to(bookmarkFront, {
       rotate: -580,
@@ -307,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
         scrub: true,
       },
     });
-  
+
     gsap.to(bookmarkBack, {
       rotate: 560,
       xPercent: 250,
@@ -329,7 +321,7 @@ document.addEventListener("DOMContentLoaded", function () {
         scrub: true,
       },
     });
-  
+
     gsap.to(bookmarkBack, {
       rotate: 230,
       xPercent: 60,
@@ -342,39 +334,29 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   }
-  
 
   // Prephoto
   const sectionPrePhoto = document.querySelector(".pre-photos");
   const PrePhoto = document.querySelector(".pre-photo");
 
-  
-
   gsap.set(PrePhoto, {
     rotate: 20,
-    xPercent: 10,
   });
 
   if (windowWidth > 768) {
-
-    gsap.set(sectionPrePhoto, {
-      yPercent: -10,
-    });
-
+   
     gsap.to(PrePhoto, {
       rotate: -20,
-      xPercent: 10,
+      xPercent: 0,
       scrollTrigger: {
         start: "top top",
         // markers: true,
         scrub: true,
       },
     });
-
   } else {
     gsap.to(PrePhoto, {
       rotate: -100,
-      xPercent: -50,
       scrollTrigger: {
         start: "top top",
         // markers: true,
@@ -382,10 +364,6 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   }
-
-  
-
-
 
   // Main Photo
 
@@ -437,7 +415,6 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-
   // Animation Columns
   const itemsOdd = document.querySelectorAll(".products-gallery .product-card");
 
@@ -456,6 +433,4 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   });
-
-
 });
