@@ -18,7 +18,7 @@
     --font-works-italic: "Suisse Works Italic" , serif;
     --font-works-bold: "Suisse Works Bold" , serif;
     --font-intl: "Suisse Book" , sans-serif;
-    --font-intl-medium: "Suisse Medium" , sans-serif;
+    --font-intl-medium: "Suisse Book Medium" , sans-serif;
     --text-item: clamp( 14px, calc(16/1920 * 100vw) , 16px);
     --text-lead: clamp( 16px, calc(24/1920 * 100vw) , 24px);
     --text-md: clamp( 15px, calc(20/1920 * 100vw) , 20px);
@@ -185,6 +185,9 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
   .float-left {
     float: left;
   }
@@ -216,6 +219,9 @@
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .filter {
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -239,6 +245,12 @@
 @font-face {
   font-family: "Suisse Book Medium";
   src: url("../assets/fonts/SuisseIntl-Medium.woff2") format("woff2"), url("../assets/fonts/SuisseIntl-Medium.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Suisse Book Light";
+  src: url("../assets/fonts/SuisseIntl-Light.woff2") format("woff2"), url("../assets/fonts/SuisseIntl-Light.woff") format("woff");
   font-display: swap;
   font-style: normal;
 }
@@ -291,6 +303,7 @@ html[lang="es-ES"] {
     font-family: var(--font-works-book);
     font-size: var(--text-p);
     em {
+      font-style: initial;
       font-family: var(--font-works-italic);
     }
   }
@@ -572,6 +585,9 @@ html[lang="es-ES"] {
           padding-block: var(--spacing-nav-y);
           font-family: var(--font-intl);
           font-size: var(--text-md);
+          .badge {
+            text-indent: var(--spacing-indent);
+          }
           .author {
             text-indent: var(--spacing-indent);
           }
@@ -611,8 +627,12 @@ html[lang="es-ES"] {
             }
           }
           p {
+            margin-bottom: var(--spacing-small);
             text-indent: var(--spacing-indent);
             font-family: var(--font-works-book);
+            a {
+              text-decoration-line: underline;
+            }
           }
         }
       }
@@ -770,23 +790,6 @@ html[lang="es-ES"] {
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-duration {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ease {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-content {
-  syntax: "*";
-  inherits: false;
-  initial-value: "";
-}
-@property --tw-tracking {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -824,6 +827,23 @@ html[lang="es-ES"] {
   inherits: false;
 }
 @property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ease {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-content {
+  syntax: "*";
+  inherits: false;
+  initial-value: "";
+}
+@property --tw-tracking {
   syntax: "*";
   inherits: false;
 }

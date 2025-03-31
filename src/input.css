@@ -19,6 +19,14 @@
 }
 
 @font-face {
+    font-family: "Suisse Book Light";
+    src: url("../assets/fonts/SuisseIntl-Light.woff2") format("woff2"),
+            url("../assets/fonts/SuisseIntl-Light.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Suisse Works";
     src: url("../assets/fonts/SuisseWorks-Book.woff2") format("woff2"),
             url("../assets/fonts/SuisseWorks-Book.woff") format("woff");
@@ -48,7 +56,8 @@
     --font-works-italic: "Suisse Works Italic" , serif;
     --font-works-bold: "Suisse Works Bold" , serif;
     --font-intl: "Suisse Book" , sans-serif;
-    --font-intl-medium: "Suisse Medium" , sans-serif;
+    --font-intl-medium: "Suisse Book Medium" , sans-serif;
+    --font-intl-light: "Suisse Book Light" , sans-serif;
 
     /* Text sizes */
     --text-item: clamp( 14px, calc(16/1920 * 100vw) , 16px);
@@ -135,6 +144,7 @@
         font-works-book;
     
         em {
+            font-style: initial;
             @apply
             font-works-italic;
         }
@@ -460,6 +470,10 @@
                     py-nav-y
                     font-intl
                     text-md;
+                    .badge {
+                        @apply
+                        indent-indent;
+                    }
                     .author {
                         @apply
                         indent-indent;
@@ -510,8 +524,14 @@
                     }
                     p {
                         @apply
+                        mb-small
                         indent-indent
                         font-works-book;
+
+                        a {
+                            @apply
+                            underline;
+                        }
                     }
                 }
             }
