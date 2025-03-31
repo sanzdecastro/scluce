@@ -19,6 +19,7 @@
     --font-works-bold: "Suisse Works Bold" , serif;
     --font-intl: "Suisse Book" , sans-serif;
     --font-intl-medium: "Suisse Book Medium" , sans-serif;
+    --font-intl-light: "Suisse Book Light" , sans-serif;
     --text-item: clamp( 14px, calc(16/1920 * 100vw) , 16px);
     --text-lead: clamp( 16px, calc(24/1920 * 100vw) , 24px);
     --text-md: clamp( 15px, calc(20/1920 * 100vw) , 20px);
@@ -587,6 +588,7 @@ html[lang="es-ES"] {
           font-size: var(--text-md);
           .badge {
             text-indent: var(--spacing-indent);
+            font-family: var(--font-intl-light);
           }
           .author {
             text-indent: var(--spacing-indent);

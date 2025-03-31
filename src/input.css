@@ -472,6 +472,7 @@
                     text-md;
                     .badge {
                         @apply
+                        font-intl-light
                         indent-indent;
                     }
                     .author {
