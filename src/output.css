@@ -679,6 +679,9 @@ html[lang="es-ES"] {
       }
     }
   }
+  #contact-form {
+    padding-bottom: var(--spacing-section-big);
+  }
   .hidden {
     display: none;
   }

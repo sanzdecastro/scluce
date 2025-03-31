@@ -590,12 +590,16 @@
             
         }
     }
+
+    #contact-form  {
+        @apply
+        pb-section-big;
+    }
     
     .hidden {
         @apply
         hidden;
     }
-    
     
     /* Fancy Box  */
     
