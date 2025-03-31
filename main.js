@@ -287,79 +287,122 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
   
-
-  gsap.to(bookmarkFront, {
-    rotate: 345,
-    xPercent: 70,
-    yPercent: -200,
-    scrollTrigger: {
-      start: "top top",
-      scrub: true,
-    },
-  });
-
-  gsap.to(bookmarkBack, {
-    rotate: 230,
-    xPercent: 60,
-    yPercent: 200,
-    scrollTrigger: {
-      start: "top top",
-      // markers: true,
-      scrub: true,
-      transformOrigin: "center",
-    },
-  });
+  if (windowWidth < 768) {
+    gsap.to(bookmarkFront, {
+      rotate: -580,
+      xPercent: 100,
+      yPercent: -500,
+      scrollTrigger: {
+        start: "top top",
+        scrub: true,
+      },
+    });
+  
+    gsap.to(bookmarkBack, {
+      rotate: 560,
+      xPercent: 250,
+      yPercent: 500,
+      scrollTrigger: {
+        start: "top top",
+        // markers: true,
+        scrub: true,
+        transformOrigin: "center",
+      },
+    });
+  } else {
+    gsap.to(bookmarkFront, {
+      rotate: 345,
+      xPercent: 70,
+      yPercent: -200,
+      scrollTrigger: {
+        start: "top top",
+        scrub: true,
+      },
+    });
+  
+    gsap.to(bookmarkBack, {
+      rotate: 230,
+      xPercent: 60,
+      yPercent: 200,
+      scrollTrigger: {
+        start: "top top",
+        // markers: true,
+        scrub: true,
+        transformOrigin: "center",
+      },
+    });
+  }
+  
 
   // Prephoto
   const sectionPrePhoto = document.querySelector(".pre-photos");
   const PrePhoto = document.querySelector(".pre-photo");
 
-  gsap.set(sectionPrePhoto, {
-    yPercent: -400,
-    autoAlpha: 0,
-  });
+  
 
   gsap.set(PrePhoto, {
     rotate: 20,
     xPercent: 10,
   });
 
-  const tlAnimationPrePhoto = gsap.timeline({
-    scrollTrigger: {
-      trigger: firstSection,
-      start: "top top",
-      // markers: true,
-      scrub: true,
-    },
-  });
+  if (windowWidth > 768) {
 
-  tlAnimationPrePhoto
-    .to(sectionPrePhoto, {
-      autoAlpha: 1,
-      yPercent: -395,
-    })
-    .to(sectionPrePhoto, {
-      yPercent: -300,
-      xPercent: 10,
-    })
-    .to(sectionPrePhoto, {
-      yPercent: -250,
-      xPercent: 5,
-    })
-    .to(sectionPrePhoto, {
-      yPercent: 0,
-      xPercent: 0,
+    gsap.set(sectionPrePhoto, {
+      yPercent: -400,
+      autoAlpha: 0,
     });
 
-  gsap.to(PrePhoto, {
-    rotate: -20,
-    xPercent: 0,
-    scrollTrigger: {
-      start: "top top",
-      // markers: true,
-      scrub: true,
-    },
-  });
+    gsap.to(PrePhoto, {
+      rotate: -20,
+      xPercent: 0,
+      scrollTrigger: {
+        start: "top top",
+        // markers: true,
+        scrub: true,
+      },
+    });
+
+    const tlAnimationPrePhoto = gsap.timeline({
+      scrollTrigger: {
+        trigger: firstSection,
+        start: "top top",
+        // markers: true,
+        scrub: true,
+      },
+    });
+  
+    tlAnimationPrePhoto
+      .to(sectionPrePhoto, {
+        autoAlpha: 1,
+        yPercent: -395,
+      })
+      .to(sectionPrePhoto, {
+        yPercent: -300,
+        xPercent: 10,
+      })
+      .to(sectionPrePhoto, {
+        yPercent: -250,
+        xPercent: 5,
+      })
+      .to(sectionPrePhoto, {
+        yPercent: 0,
+        xPercent: 0,
+      });
+  } else {
+    gsap.to(PrePhoto, {
+      rotate: -100,
+      xPercent: -50,
+      scrollTrigger: {
+        start: "top top",
+        // markers: true,
+        scrub: true,
+      },
+    });
+  }
+
+  
+
+
 
   // Main Photo
 
@@ -385,25 +428,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const text = document.querySelectorAll(
     ".introduction .title, .introduction .text"
   );
+  const ulSlides = document.querySelector("ul.slides");
 
   ScrollTrigger.create({
     trigger: introduction,
     start: "center bottom",
     onUpdate: (self) => body.classList.add("bg-white"),
     onEnter() {
+      // Cuando entra a la sección
       body.classList.add("bg-white");
+      ulSlides.classList.add("hidden");
       text.forEach((el) => el.classList.add("text-blue-euroluce"));
     },
-    onLeave() {
-      //body.classList.remove("bg-white");
-      //text.forEach((el) => el.classList.remove("text-blue-euroluce"));
-    },
     onEnterBack() {
+      // Cuando entra a la sección de nuevo
       body.classList.add("bg-white");
+      ulSlides.classList.add("hidden");
       text.forEach((el) => el.classList.add("text-blue-euroluce"));
     },
     onLeaveBack() {
+      // Cuando sale haciando scroll hacia arriba
       body.classList.remove("bg-white");
+      ulSlides.classList.remove("hidden");
       text.forEach((el) => el.classList.remove("text-blue-euroluce"));
     },
   });
