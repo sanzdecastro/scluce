@@ -554,6 +554,6 @@
         </main>
     </div>
 </body>
-<script src="/main.js"></script>
+<script src="/src/main.js"></script>
 
 </html>
