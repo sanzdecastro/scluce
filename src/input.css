@@ -432,6 +432,7 @@
                 aspect-square;
                 img {
                     @apply
+                    w-full
                     object-cover
                     pb-gap-small
                     col-span-1;
@@ -621,45 +622,45 @@
         @apply
         hidden;
     }
+}
+
+  /* Fancy Box  */
     
-    /* Fancy Box  */
-    
-    .fancybox__container {
-        --fancybox-bg: #FFFFFF;
-        --fancybox-color: var(--color-blue-euroluce);
-        --fancybox-hover-color:  var(--color-blue-euroluce);
-        --f-button-svg-filter: none;
-        @apply
-        font-works-book
-        drop-shadow-none;
-    }
-    
-    .fancybox__toolbar {
-        --f-button-bg: #FFFFFF;
-        --f-button-hover-bg: #FFFFFF;
-        text-shadow: none;
-        @apply
-        font-works-book
-        drop-shadow-none;
-    }
-    
-    .f-button:active:not([disabled]) {
-        @apply
-        bg-transparent;
-    }
-    
-    .f-button svg {
-        @apply
-        filter-none;
-    }
-    
-    .fancybox__caption {
-        @apply
-        text-p;
-    }
-    
-    .is-compact .fancybox__footer {
-        @apply
-        bg-white;
-    }
+  .fancybox__container {
+    --fancybox-bg: #FFFFFF;
+    --fancybox-color: var(--color-blue-euroluce);
+    --fancybox-hover-color:  var(--color-blue-euroluce);
+    --f-button-svg-filter: none;
+    @apply
+    font-works-book
+    drop-shadow-none;
+}
+
+.fancybox__toolbar {
+    --f-button-bg: #FFFFFF;
+    --f-button-hover-bg: #FFFFFF;
+    text-shadow: none;
+    @apply
+    font-works-book
+    drop-shadow-none;
+}
+
+.f-button:active:not([disabled]) {
+    @apply
+    bg-transparent;
+}
+
+.f-button svg {
+    @apply
+    filter-none;
+}
+
+.fancybox__caption {
+    @apply
+    text-p;
+}
+
+.is-compact .fancybox__footer {
+    @apply
+    bg-white;
 }

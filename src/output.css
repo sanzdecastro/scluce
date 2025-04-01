@@ -568,6 +568,7 @@ html[lang="es-ES"] {
         overflow: hidden;
         img {
           grid-column: span 1 / span 1;
+          width: 100%;
           object-fit: cover;
           padding-bottom: var(--spacing-gap-small);
         }
@@ -707,35 +708,35 @@ html[lang="es-ES"] {
   .hidden {
     display: none;
   }
-  .fancybox__container {
-    --fancybox-bg: #FFFFFF;
-    --fancybox-color: var(--color-blue-euroluce);
-    --fancybox-hover-color: var(--color-blue-euroluce);
-    --f-button-svg-filter: none;
-    font-family: var(--font-works-book);
-    --tw-drop-shadow:  ;
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-  .fancybox__toolbar {
-    --f-button-bg: #FFFFFF;
-    --f-button-hover-bg: #FFFFFF;
-    text-shadow: none;
-    font-family: var(--font-works-book);
-    --tw-drop-shadow:  ;
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-  }
-  .f-button:active:not([disabled]) {
-    background-color: transparent;
-  }
-  .f-button svg {
-    filter: none;
-  }
-  .fancybox__caption {
-    font-size: var(--text-p);
-  }
-  .is-compact .fancybox__footer {
-    background-color: var(--color-white);
-  }
+}
+.fancybox__container {
+  --fancybox-bg: #FFFFFF;
+  --fancybox-color: var(--color-blue-euroluce);
+  --fancybox-hover-color: var(--color-blue-euroluce);
+  --f-button-svg-filter: none;
+  font-family: var(--font-works-book);
+  --tw-drop-shadow:  ;
+  filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+}
+.fancybox__toolbar {
+  --f-button-bg: #FFFFFF;
+  --f-button-hover-bg: #FFFFFF;
+  text-shadow: none;
+  font-family: var(--font-works-book);
+  --tw-drop-shadow:  ;
+  filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+}
+.f-button:active:not([disabled]) {
+  background-color: transparent;
+}
+.f-button svg {
+  filter: none;
+}
+.fancybox__caption {
+  font-size: var(--text-p);
+}
+.is-compact .fancybox__footer {
+  background-color: var(--color-white);
 }
 @property --tw-shadow {
   syntax: "*";
