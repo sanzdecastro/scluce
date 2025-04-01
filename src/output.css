@@ -295,6 +295,8 @@ html[lang="es-ES"] {
   }
 }
 .euroluce-landing, .page-template-landing-euroluce {
+  width: 100vw;
+  overflow-x: hidden;
   h1, h2, h3, h4, h5 {
     padding-bottom: var(--spacing-nav-y);
     font-family: var(--font-intl);
@@ -370,6 +372,22 @@ html[lang="es-ES"] {
             }
           }
         }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    nav {
+      pointer-events: none;
+      top: auto;
+      bottom: calc(var(--spacing) * 0);
+      width: 100%;
+      .slides {
+        pointer-events: auto;
+      }
+      .menu {
+        pointer-events: auto;
+        flex-direction: row;
+        justify-content: space-between;
       }
     }
   }
@@ -520,6 +538,9 @@ html[lang="es-ES"] {
         flex-direction: column;
         padding-top: calc(var(--spacing) * 0.5);
         text-align: end;
+        @media (max-width: 768px) {
+          text-align: start;
+        }
         h2 {
           font-family: var(--font-intl);
         }

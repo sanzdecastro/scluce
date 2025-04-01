@@ -129,7 +129,9 @@
 
 .euroluce-landing, .page-template-landing-euroluce {
 
-    
+    @apply
+    overflow-x-hidden
+    w-[100vw];
     
     h1, h2, h3, h4, h5 {
         @apply
@@ -164,6 +166,8 @@
         text-white
         px-nav-x
         py-medium;
+
+        
     
         .slides {
             a {
@@ -217,6 +221,28 @@
                 }
             }
             
+        }
+    }
+
+    @media (max-width: 768px) {
+        nav {
+            @apply
+            pointer-events-none
+            w-full
+            bottom-0
+            top-auto;
+
+            .slides {
+                @apply
+                pointer-events-auto;
+            }
+
+            .menu {
+                @apply
+                pointer-events-auto
+                justify-between
+                flex-row;
+            }
         }
     }
     
@@ -367,6 +393,11 @@
                 text-end
                 flex
                 flex-col;
+
+                @media (max-width: 768px) {
+                    @apply
+                    text-start;
+                }
     
                 h2 {
                    @apply
@@ -622,6 +653,8 @@
         @apply
         hidden;
     }
+
+    
 }
 
   /* Fancy Box  */
