@@ -203,39 +203,38 @@
                 <!-- Products Gallery -->
                 <div class="products-gallery">
                     <!-- Product card -->
-                    <div id="gira" class="product-card float-left">
+                    <div id="gira-mini" class="product-card float-left">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Gira Mini', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('J.M. Massana, J.M. Tremoleda, Mariano Ferrer, 2023', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/cirio-pana.jpg" data-fancybox="cirio-pana" data-caption="Caption #1">
-                                <img src="/assets/img/products/cirio-pana.jpg" />
+                            <a href="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg" data-fancybox="gira-mini" data-caption="">
+                                <img src="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg" />
                             </a>
                             
-                            <a  href="/assets/img/main-photo.jpg" data-fancybox="cirio-pana" data-caption="Caption #2">
-                                <img src="/assets/img/main-photo.jpg" />
+                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_09_230379_Gira_Mini.jpg" data-fancybox="gira-mini" data-caption="">
+                                <img src="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_09_230379_Gira_Mini.jpg" />
                             </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('Rotation in Hand', 'landing-euroluce25'); ?></h3>
                             <p><?php _e('Gira Mini distills the essence of portable lighting into a compact design that retains the virtues of its older sibling. An ingenious ball-joint base, paired with an adjustable shade around a spherical LED core, grants complete freedom of movement, directing light precisely where it is needed. With its battery-powered mobility and dual light intensity, Gira Mini is both exacting and discreet –illuminating the relevant area without drawing attention to itself.', 'landing-euroluce25'); ?></p>
-                        
                         </div>
                     </div>
 
                     <!-- Product card -->
-                    <div id="cirio" class="product-card float-right">
+                    <div id="cirio-pana" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Cirio Pana', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Antoni Arola, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/gira-mini.jpg" data-fancybox="gira-mini" data-caption="Caption #1">
+                            <a href="/assets/img/products/gira-mini.jpg" data-fancybox="gira-mini" data-caption="">
                                 <img src="/assets/img/products/gira-mini.jpg" />
                             </a>
                             
-                            <a  href="/assets/img/products/bella.jpg" data-fancybox="gira-mini" data-caption="Caption #2">
+                            <a  href="/assets/img/products/bella.jpg" data-fancybox="gira-mini" data-caption="">
                                 <img src="/assets/img/products/bella.jpg" />
                             </a>
                         </div>
@@ -249,19 +248,18 @@
                     
                     
                     <!-- Product card -->
-                    <div id="alubat" class="product-card float-right">
+                    <div id="cesita-alubat" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Cestita Alubat', 'landing-euroluce25'); ?></div>
                             <div class="badge"><?php _e('New finishes', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/TMA.jpg" data-fancybox="TMA" data-caption="Caption #1">
-                                <img src="/assets/img/products/TMA.jpg" />
+                            <a href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg" data-fancybox="alubat" data-caption="">
+                                <img src="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg" />
                             </a>
-                            
-                            <a  href="/assets/img/main-photo.jpg" data-fancybox="TMA" data-caption="Caption #2">
-                                <img src="/assets/img/main-photo.jpg" />
+                            <a  href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4770_RET.jpg" data-fancybox="alubat" data-caption="">
+                                <img src="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4770_RET.jpg" />
                             </a>
                         </div>
                         <div class="description">
@@ -272,13 +270,19 @@
                     </div>
 
                     <!-- Product card -->
-                    <div id="tma" class="product-card float-left">
+                    <div  id="TMA" class="product-card float-left">
                         <div class="product-card-header">
                             <div class="name"><?php _e('TMA', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Miguel Milá, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                        
+                            <a href="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg" data-fancybox="TMA" data-caption="">
+                                <img src="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg" />
+                            </a>
+                            <a href="/assets/img/products/TMA-Sylvestrina-Coke-Bartrina-Clara-2025-0435.jpg" data-fancybox="TMA" data-caption="">
+                                <img src="/assets/img/products/TMA-Sylvestrina-Coke-Bartrina-Clara-2025-0435.jpg" />
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('Refinement Upon Refinement', 'landing-euroluce25'); ?></h3>
@@ -294,12 +298,12 @@
                             <div class="author"><?php _e('Júlia Esqué, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/TMA.jpg" data-fancybox="TMA" data-caption="Caption #1">
-                                <img src="/assets/img/products/TMA.jpg" />
+                            <a href="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" data-fancybox="alterna" data-caption="">
+                                <img src="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" />
                             </a>
                             
-                            <a  href="/assets/img/main-photo.jpg" data-fancybox="TMA" data-caption="Caption #2">
-                                <img src="/assets/img/main-photo.jpg" />
+                            <a  href="/assets/img/products/Alterna-Coke-Bartrina-Casa-Costa-2025-1051-RET.jpg" data-fancybox="alterna" data-caption="">
+                                <img src="/assets/img/products/Alterna-Coke-Bartrina-Casa-Costa-2025-1051-RET.jpg" />
                             </a>
                         </div>
                         <div class="description">
@@ -318,7 +322,12 @@
                             <div class="author"><?php _e('Pete Sans, 1979', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" data-fancybox="lamparaprima" data-caption="">
+                                <img src="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" />
+                            </a>
+                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0908.jpg" data-fancybox="lamparaprima" data-caption="">
+                                <img src="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0908.jpg" />
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('Inventive Ubiquity', 'landing-euroluce25'); ?></h3>
@@ -328,13 +337,18 @@
                     </div>
                     
                     <!-- Product card -->
-                    <div  id="tekio" class="product-card float-right">
+                    <div id="tekio-mayor" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Tekiò Mayor', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Anthony Dickens, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg" data-fancybox="tekio-mayor" data-caption="">
+                                <img src="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg">
+                            </a>
+                            <a  href="/assets/img/products/Tekio-Mayor-Casa-Costa-Coke-Bartrina-2025-0730_RET.jpg" data-fancybox="tekio-mayor" data-caption="">
+                                <img src="/assets/img/products/Tekio-Mayor-Casa-Costa-Coke-Bartrina-2025-0730_RET.jpg">
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('A Presence That Commands', 'landing-euroluce25'); ?></h3>
@@ -351,29 +365,36 @@
                             <div class="author"><?php _e('Gabriel Ordeig Cole, 1988', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/TMA.jpg" data-fancybox="TMA" data-caption="Caption #1">
-                                <img src="/assets/img/products/TMA.jpg" />
+                            <a href="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg" data-fancybox="MesitaGO" data-caption="">
+                                <img src="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg" />
                             </a>
-                            
-                            <a  href="/assets/img/main-photo.jpg" data-fancybox="TMA" data-caption="Caption #2">
-                                <img src="/assets/img/main-photo.jpg" />
+                            <a  href="/assets/img/products/mesita-go-2.jpg" data-fancybox="MesitaGO" data-caption="">
+                                <img src="/assets/img/products/mesita-go-2.jpg" />
                             </a>
                         </div>
                         <div class="description">
-                            <h3><?php _e('Matchstick Form / Striking a Match / Kindling a Spark.', 'landing-euroluce25'); ?></h3>
+                            <h3><?php _e('Kindling a Spark.', 'landing-euroluce25'); ?></h3>
                             <p><?php _e('The Mesita GO fuses functionality with sculptural charm. Chrome legs, capped with feet resembling match heads, elevate a black-stained oak tabletop with effortless grace.', 'landing-euroluce25'); ?></p>
                             <p><?php _e('Available in two options: a sleek flat surface or with a discreet secretaire drawer. Unusually robust for its size, it relocates easily while bearing heavy loads.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
 
                     <!-- Product card -->
-                    <div  id="bibluz" class="product-card float-right">
+                    <div  id="bib-luz" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Bib Luz', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Oscar Tusquets, 1986', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg" data-fancybox="bib-luz" data-caption="">
+                                <img src="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg">
+                            </a>
+                            <a  href="/assets/img/products/bib-luz-2.jpg" data-fancybox="bib-luz" data-caption="">
+                                <img src="/assets/img/products/bib-luz-2.jpg" />
+                            </a>
+                            <a  href="/assets/img/products/Bib-Luz-Coke-Bartrina-Casa-Costa-2025-1016.jpg" data-fancybox="bib-luz" data-caption="">
+                                <img src="/assets/img/products/Bib-Luz-Coke-Bartrina-Casa-Costa-2025-1016.jpg" />
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('A Book Among More Books', 'landing-euroluce25'); ?></h3>
@@ -383,13 +404,19 @@
                     </div>
                     
                     <!-- Product card -->
-                    <div  id="bella" class="product-card float-left">
+                    <div id="bella-durmiente" class="product-card float-left">
                         <div class="product-card-header">
                             <div class="name"><?php _e('La Bella Durmiente', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Nina Masó and Gabriel Ordeig Cole, 1985', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg" data-fancybox="bella-durmiente" data-caption="">
+                                <img src="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg">
+                            </a>
+                            <a  href="/assets/img/products/La-Bella-Durmiente-Coke-Bartrina-Vasto-2025-1422.jpg" data-fancybox="bella-durmiente" data-caption="">
+                                <img src="/assets/img/products/La-Bella-Durmiente-Coke-Bartrina-Vasto-2025-1422.jpg">
+                            </a>
+                            
                         </div>
                         <div class="description">
                             <h3><?php _e('Awaken to a Joyful Light', 'landing-euroluce25'); ?></h3>
@@ -409,7 +436,12 @@
                             <div class="badge"><?php _e('Delta de Plata 1999', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg" data-fancybox="shiro" data-caption="">
+                                <img src="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg">
+                            </a>
+                            <a  href="/assets/img/products/Shiro_25_45_exterior_ON_JaraVarela_Delta_SantaCole_2023_10_RET.jpg" data-fancybox="shiro" data-caption="">
+                                <img src="/assets/img/products/Shiro_25_45_exterior_ON_JaraVarela_Delta_SantaCole_2023_10_RET.jpg">
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('Contemplative Serenity', 'landing-euroluce25'); ?></h3>
@@ -428,7 +460,12 @@
                             <div class="badge"><?php _e('IF Design Product design Hannover 2021', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg" data-fancybox="sylvestrina" data-caption="">
+                                <img src="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg">
+                            </a>
+                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke-Bartrina-Clara-2025-0444.jpg" data-fancybox="sylvestrina" data-caption="">
+                                <img src="/assets/img/products/Sylvestrina-Blanca-Coke-Bartrina-Clara-2025-0444.jpg">
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('A State-of-the-Art Oil Lamp', 'landing-euroluce25'); ?></h3>
@@ -438,18 +475,45 @@
                     </div>
                 
                     <!-- Product card -->
-                    <div id="m64" class="product-card float-right">
+                    <div id="M64" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('M64', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Miguel Milá, 2024', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <img src="/assets/img/products/bella.jpg">
+                            <a  href="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg" data-fancybox="M64" data-caption="">
+                                <img src="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg">
+                            </a>
+                            <a  href="/assets/img/products/M64-table-Blanca-Yosigo-2024-244553.jpg" data-fancybox="M64" data-caption="">
+                                <img src="/assets/img/products/M64-table-Blanca-Yosigo-2024-244553.jpg">
+                            </a>
                         </div>
                         <div class="description">
                             <h3><?php _e('A Historic Silhouette', 'landing-euroluce25'); ?></h3>
                             <p><?php _e('The M64 desk lamp is the last evolution of Miguel Milá’s award-winning 1964 pendant lamp, which won the Gold Delta Award and became a landmark in Spanish design history, at its inception as a professional discipline.', 'landing-euroluce25'); ?></p>
                             <p><?php _e('True to its origins, this version translates the lamp’s fundamental elements into a compact tabletop format, featuring a chrome metal structure that highlights its voluptuous, sensuous shade, available in 10 different finishes. It casts a focused cone of light onto the surface while allowing a soft glow to radiate through its filtered upper opening.', 'landing-euroluce25'); ?></p>
+                        </div>
+                    </div>
+
+                    <!-- Product card -->
+                    <div id="la-colilla" class="product-card float-right 2xl:float-left">
+                        <div class="product-card-header">
+                            <div class="name"><?php _e('La Colilla', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Carles Riart, 1976', 'landing-euroluce25'); ?></div>
+                        </div>
+                        <div class="gallery">
+                            <a  href="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg" data-fancybox="colilla" data-caption="">
+                                <img src="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg">
+                            </a>
+                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_020_230441_La_Colilla_Babel.jpg" data-fancybox="colilla" data-caption="">
+                                <img src="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_020_230441_La_Colilla_Babel.jpg">
+                            </a>
+                        </div>
+                        <div class="description">
+                            <h3><?php _e('The Subtlety of Minimum Light', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Some lights can only be seen at night. A sky full of stars. Fireflies dancing in an open field. The embers of a campfire, glowing as the sun fades. This lamp is designed as a companion for music, for conversation, for love. Where the night falls, La Colilla illuminates.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Designed by Carles Riart in 1976, produced by chance and distributed by Gabriel Ordeig Cole, from his first venture Comercial Estelar, La Colilla was Santa & Cole’s first edited product back in 1985.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('A translucent tube houses the small neon bulbs which provide the illumination. La Colilla pendant lamp is a low-energy light with an exceptionally long lifespan; it comes without a switch so that it is always left on. Hanging from a delicate thread, it has an appearance of floating in mid-air. It has a variety of uses: in the bedroom or the lounge, providing helpful and guiding light in hallways, stairs or porches, and even as a children’s night light for sweet dreams.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                 </div>

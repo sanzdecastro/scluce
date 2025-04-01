@@ -29,8 +29,8 @@
     --spacing-gap-small: clamp( 10px, calc(13/1920 * 100vw) , 13px);
     --spacing-section-big: clamp( 92px , calc(240/1920 * 100vw) , 240px );
     --spacing-section-small: clamp( 92px , calc(104/1920 * 100vw) , 104px );
-    --spacing-rythm-big: clamp( 20px , calc(460/1920 * 100vw) , 460px );
-    --spacing-rythm-small: clamp( 20px , calc(120/1920 * 100vw) , 120px );
+    --spacing-rythm-big: clamp( 20px , calc(360/1920 * 100vw) , 460px );
+    --spacing-rythm-small: clamp( 20px , calc(100/1920 * 100vw) , 120px );
     --spacing-indent: clamp( 40px, calc(80/1920 * 100vw) , 80px);
     --spacing-big-x: clamp( 14px, calc(240/1920 * 100vw) , 240px);
     --spacing-medium: clamp( 14px, calc(40/1920 * 100vw) , 40px);
@@ -235,6 +235,16 @@
   .ease-in {
     --tw-ease: var(--ease-in);
     transition-timing-function: var(--ease-in);
+  }
+  .\32 xl\:float-left {
+    @media (width >= 96rem) {
+      float: left;
+    }
+  }
+  .\32 xl\:float-right {
+    @media (width >= 96rem) {
+      float: right;
+    }
   }
 }
 @font-face {
