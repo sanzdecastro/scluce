@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="page-template-landing-euroluce bg-blue-euroluce overflow-x-hidden transition duration-300 ease-in euroluce-landing">
+    <div class="euroluce-landing page-template-landing-euroluce25 bg-blue-euroluce overflow-x-hidden transition duration-300 ease-in ">
         <!-- Menu items -->
         <nav>
             <span class="dummy"></span>
@@ -235,12 +235,12 @@
                             <div class="author"><?php _e('Antoni Arola, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/gira-mini.jpg" data-fancybox="gira-mini" data-caption="">
-                                <img src="/assets/img/products/gira-mini.jpg" />
+                            <a href="/assets/img/products/" data-fancybox="gira-mini" data-caption="">
+                                <img src="/assets/img/products/" />
                             </a>
                             
-                            <a  href="/assets/img/products/bella.jpg" data-fancybox="gira-mini" data-caption="">
-                                <img src="/assets/img/products/bella.jpg" />
+                            <a  href="/assets/img/products/" data-fancybox="gira-mini" data-caption="">
+                                <img src="/assets/img/products/" />
                             </a>
                         </div>
                         <div class="description">
