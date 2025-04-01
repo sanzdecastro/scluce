@@ -602,6 +602,9 @@ html[lang="es-ES"] {
           padding-bottom: var(--spacing-gap-small);
         }
       }
+      p {
+        font-family: var(--font-intl);
+      }
     }
     .products-gallery {
       column-gap: var(--spacing-gap-big);

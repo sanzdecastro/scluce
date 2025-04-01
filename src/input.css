@@ -466,6 +466,11 @@
                     pb-gap-small
                     col-span-1;
                 }
+                
+            }
+            p {
+                @apply
+                font-intl;
             }
     
            
