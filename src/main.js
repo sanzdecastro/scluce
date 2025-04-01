@@ -384,7 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Change Bakcground Color
 
-  const body = document.querySelector(".page-template-landing-euroluce");
+  const body = document.querySelector(".page-template-landing-euroluce25");
   const introduction = document.querySelector(".introduction");
   const text = document.querySelectorAll(
     ".introduction .title, .introduction .text"

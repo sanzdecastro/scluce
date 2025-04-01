@@ -304,7 +304,7 @@ html[lang="es-ES"] {
     display: none;
   }
 }
-.euroluce-landing, .page-template-landing-euroluce {
+.euroluce-landing, .page-template-landing-euroluce25 {
   h1, h2, h3, h4, h5 {
     padding-bottom: var(--spacing-nav-y);
     font-family: var(--font-intl);

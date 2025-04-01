@@ -554,6 +554,7 @@
         </main>
     </div>
 </body>
+<!-- Script de landing -->
 <script src="/src/main.js"></script>
 
 </html>
