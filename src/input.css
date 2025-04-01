@@ -129,9 +129,7 @@
 
 .euroluce-landing, .page-template-landing-euroluce {
 
-    @apply
-    overflow-x-hidden
-    w-[100vw];
+   
     
     h1, h2, h3, h4, h5 {
         @apply

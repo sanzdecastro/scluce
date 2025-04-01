@@ -87,108 +87,116 @@
                 <p class=""><?php _e('Texto explicando los productos que presentamos en Euroluce 2025, Laborum ea proident irure excepteur. Mollit ad aliquip magna duis irure proident dolore dolore adipisicing mollit aute laborum.', 'landing-euroluce25'); ?></p>
                 <!-- Products Index -->
                 <div class="products-reel">
-                    <a href="">
+                    <a href="#alterna">
                         <div class="product-item">
                             <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
+                                <img  src="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg">
+                            </div>
+                            <p>Alterna</p>
+                        </div>
+                    </a>
+                    <a href="#bib-luz">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg">
+                            </div>
+                            <p>Bib Luz</p>
+                        </div>
+                    </a>
+                    <a href="#cesita-alubat">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg">
+                            </div>
+                            <p>Cestita Alubat</p>
+                        </div>
+                    </a>
+                    <a href="#cirio-pana">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/">
+                            </div>
+                            <p>Cirio Pana</p>
+                        </div>
+                    </a>
+                    <a href="#gira-mini">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg">
+                            </div>
+                            <p>Gira Mini</p>
+                        </div>
+                    </a>
+                    <a href="#bella-durmiente">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg">
+                            </div>
+                            <p>La Bella Durmiente</p>
+                        </div>
+                    </a>
+                    <a href="#la-colilla">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg">
+                            </div>
+                            <p>La Colilla</p>
+                        </div>
+                    </a>
+                    <a href="#lamparaprima">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg">
+                            </div>
+                            <p>Lamparaprima</p>
+                        </div>
+                    </a>
+                    <a href="#mesita-go">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg">
+                            </div>
+                            <p>Mesita GO</p>
+                        </div>
+                    </a>
+                    <a href="#M64">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg">
+                            </div>
+                            <p>M64</p>
+                        </div>
+                    </a>
+                    <a href="#shiro">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg">
+                            </div>
+                            <p>Shiro</p>
+                        </div>
+                    </a>
+                    <a href="#sylvestrina">
+                        <div class="product-item">
+                            <div class="image-wrapper">
+                                <img  src="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg">
                             </div>
                             <p>Sylvestrina</p>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="#tekio-mayor">
                         <div class="product-item">
                             <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
+                                <img  src="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg">
                             </div>
-                            <p>Sylvestrina</p>
+                            <p>Tekiò Mayor</p>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="#TMA">
                         <div class="product-item">
                             <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
+                                <img  src="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg">
                             </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="product-item">
-                            <div class="image-wrapper">
-                                <img  src="/assets/img/products/bella.jpg">
-                            </div>
-                            <p>Sylvestrina</p>
+                            <p>TMA</p>
                         </div>
                     </a>
                 </div>

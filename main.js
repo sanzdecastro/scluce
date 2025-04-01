@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
     Thumbs: {
-      type: "classic",
+      type: "modern",
     },
   });
 
