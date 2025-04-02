@@ -394,6 +394,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".introduction .title, .introduction .text"
   );
   const ulSlides = document.querySelector("ul.slides");
+  const nav = document.querySelector("nav");
 
   ScrollTrigger.create({
     trigger: introduction,
@@ -403,18 +404,21 @@ document.addEventListener("DOMContentLoaded", function () {
       // Cuando entra a la sección
       body.classList.add("bg-white");
       ulSlides.classList.add("hidden");
+      nav.classList.add("mix-blend-initial")
       text.forEach((el) => el.classList.add("text-blue-euroluce"));
     },
     onEnterBack() {
       // Cuando entra a la sección de nuevo
       body.classList.add("bg-white");
       ulSlides.classList.add("hidden");
+      nav.classList.add("mix-blend-initial")
       text.forEach((el) => el.classList.add("text-blue-euroluce"));
     },
     onLeaveBack() {
       // Cuando sale haciando scroll hacia arriba
       body.classList.remove("bg-white");
       ulSlides.classList.remove("hidden");
+      nav.classList.remove("mix-blend-initial")
       text.forEach((el) => el.classList.remove("text-blue-euroluce"));
     },
   });

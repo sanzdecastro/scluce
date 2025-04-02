@@ -102,29 +102,33 @@
     }
 }
 
+* {
+    /* text-rendering: optimizeLegibility; */
+    -webkit-font-smoothing: antialiased; /* Para navegadores basados en WebKit */
+    -moz-osx-font-smoothing: grayscale;   /* Para Firefox en macOS */
+}
 
-    html, body, main {
-        -webkit-font-smoothing: antialiased; /* Para navegadores basados en WebKit */
-        -moz-osx-font-smoothing: grayscale;   /* Para Firefox en macOS */
+html, body, main {
+   
+    @apply
+    font-intl
+    overflow-x-hidden
+    w-[100vw];
+}
+
+html[lang="en-US"] {
+    .lang-es {
         @apply
-        font-intl
-        overflow-x-hidden
-        w-[100vw];
+        hidden;
     }
-    
-    html[lang="en-US"] {
-        .lang-es {
-            @apply
-            hidden;
-        }
+}
+
+html[lang="es-ES"] {
+    .lang-en {
+        @apply
+        hidden;
     }
-    
-    html[lang="es-ES"] {
-        .lang-en {
-            @apply
-            hidden;
-        }
-    }
+}
  
 
 
@@ -225,6 +229,24 @@
             }
             
         }
+    }
+    nav.mix-blend-initial {
+        @apply
+        text-blue-euroluce
+        mix-blend-normal;
+        .menu {
+            li {
+                a {
+                    &:focus {
+                        &:after {
+                            @apply
+                            bg-blue-euroluce;
+                        }
+                    }
+                }
+            }
+        }
+        
     }
 
     @media (max-width: 768px) {
@@ -518,6 +540,7 @@
                     }
                     .author {
                         @apply
+                        font-intl
                         indent-indent;
                     }
                 }
@@ -551,7 +574,8 @@
                         font-works-book
                         text-md
                         relative
-                        pb-nav-y;
+                        pb-nav-y
+                        ml-indent;
                         &:after {
                             @apply
                             content-['']
