@@ -236,16 +236,6 @@
     --tw-ease: var(--ease-in);
     transition-timing-function: var(--ease-in);
   }
-  .\32 xl\:float-left {
-    @media (width >= 96rem) {
-      float: left;
-    }
-  }
-  .\32 xl\:float-right {
-    @media (width >= 96rem) {
-      float: right;
-    }
-  }
 }
 @font-face {
   font-family: "Suisse Book";
