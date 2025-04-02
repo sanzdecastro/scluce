@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     gsap.to(dipticClosed, {
       rotate: -51,
-      xPercent: -300,
+      xPercent: -400,
       transformOrigin: "center center",
       yPercent: 0,
       scrollTrigger: {
@@ -327,9 +327,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     gsap.to(bookmarkBack, {
-      rotate: 230,
+      rotate: 280,
       xPercent: 60,
-      yPercent: 200,
+      yPercent: 300,
       scrollTrigger: {
         start: "top top",
         // markers: true,
@@ -443,5 +443,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-  
 });
