@@ -214,10 +214,10 @@
                             <div class="author"><?php _e('Anthony Dickens, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg" data-fancybox="tekio-mayor" data-caption="">
+                            <a  href="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg" data-fancybox="gallery-tekio-mayor" data-caption="">
                                 <img src="/assets/img/products/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg">
                             </a>
-                            <a  href="/assets/img/products/Tekio-Mayor-Casa-Costa-Coke-Bartrina-2025-0730_RET.jpg" data-fancybox="tekio-mayor" data-caption="">
+                            <a  href="/assets/img/products/Tekio-Mayor-Casa-Costa-Coke-Bartrina-2025-0730_RET.jpg" data-fancybox="gallery-tekio-mayor" data-caption="">
                                 <img src="/assets/img/products/Tekio-Mayor-Casa-Costa-Coke-Bartrina-2025-0730_RET.jpg">
                             </a>
                         </div>
@@ -234,10 +234,10 @@
                             <div class="author"><?php _e('Pete Sans, 1979', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" data-fancybox="lamparaprima" data-caption="">
+                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" data-fancybox="gallery-lamparaprima" data-caption="">
                                 <img src="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" />
                             </a>
-                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0908.jpg" data-fancybox="lamparaprima" data-caption="">
+                            <a href="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0908.jpg" data-fancybox="gallery-lamparaprima" data-caption="">
                                 <img src="/assets/img/products/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0908.jpg" />
                             </a>
                         </div>
@@ -255,10 +255,10 @@
                         </div>
                         <div class="gallery">
                         
-                            <a href="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg" data-fancybox="TMA" data-caption="">
+                            <a href="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg" data-fancybox="gallery-TMA" data-caption="">
                                 <img src="/assets/img/products/TMA-Coke Bartrina-Vasto-2025-1150.jpg" />
                             </a>
-                            <a href="/assets/img/products/TMA-Sylvestrina-Coke-Bartrina-Clara-2025-0435.jpg" data-fancybox="TMA" data-caption="">
+                            <a href="/assets/img/products/TMA-Sylvestrina-Coke-Bartrina-Clara-2025-0435.jpg" data-fancybox="gallery-TMA" data-caption="">
                                 <img src="/assets/img/products/TMA-Sylvestrina-Coke-Bartrina-Clara-2025-0435.jpg" />
                             </a>
                         </div>
@@ -275,11 +275,11 @@
                             <div class="author"><?php _e('Júlia Esqué, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" data-fancybox="alterna" data-caption="">
+                            <a href="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" data-fancybox="gallery-alterna" data-caption="">
                                 <img src="/assets/img/products/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" />
                             </a>
                             
-                            <a  href="/assets/img/products/Alterna-Coke-Bartrina-Casa-Costa-2025-1051-RET.jpg" data-fancybox="alterna" data-caption="">
+                            <a  href="/assets/img/products/Alterna-Coke-Bartrina-Casa-Costa-2025-1051-RET.jpg" data-fancybox="gallery-alterna" data-caption="">
                                 <img src="/assets/img/products/Alterna-Coke-Bartrina-Casa-Costa-2025-1051-RET.jpg" />
                             </a>
                         </div>
@@ -296,11 +296,11 @@
                             <div class="author"><?php _e('J.M. Massana, J.M. Tremoleda, Mariano Ferrer, 2023', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg" data-fancybox="gira-mini" data-caption="">
+                            <a href="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg" data-fancybox="gallery-gira-mini" data-caption="">
                                 <img src="/assets/img/products/Gira-Mini-Coke-Bartrina-Clara-2025-0257.jpg" />
                             </a>
                             
-                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_09_230379_Gira_Mini.jpg" data-fancybox="gira-mini" data-caption="">
+                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_09_230379_Gira_Mini.jpg" data-fancybox="gallery-gira-mini" data-caption="">
                                 <img src="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_09_230379_Gira_Mini.jpg" />
                             </a>
                         </div>
@@ -316,10 +316,10 @@
                             <div class="author"><?php _e('Nina Masó and Gabriel Ordeig Cole, 1985', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg" data-fancybox="bella-durmiente" data-caption="">
+                            <a  href="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg" data-fancybox="gallery-bella-durmiente" data-caption="">
                                 <img src="/assets/img/products/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpg">
                             </a>
-                            <a  href="/assets/img/products/La-Bella-Durmiente-Coke-Bartrina-Vasto-2025-1422.jpg" data-fancybox="bella-durmiente" data-caption="">
+                            <a  href="/assets/img/products/La-Bella-Durmiente-Coke-Bartrina-Vasto-2025-1422.jpg" data-fancybox="gallery-bella-durmiente" data-caption="">
                                 <img src="/assets/img/products/La-Bella-Durmiente-Coke-Bartrina-Vasto-2025-1422.jpg">
                             </a>
                             
@@ -340,10 +340,10 @@
                             <div class="author"><?php _e('Gabriel Ordeig Cole, 1988', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg" data-fancybox="MesitaGO" data-caption="">
+                            <a href="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg" data-fancybox="gallery-MesitaGO" data-caption="">
                                 <img src="/assets/img/products/Mesita-GO-Coke-Bartrina-Casa-Costa-2025-0775.jpg" />
                             </a>
-                            <a  href="/assets/img/products/mesita-go-2.jpg" data-fancybox="MesitaGO" data-caption="">
+                            <a  href="/assets/img/products/mesita-go-2.jpg" data-fancybox="gallery-MesitaGO" data-caption="">
                                 <img src="/assets/img/products/mesita-go-2.jpg" />
                             </a>
                         </div>
@@ -360,10 +360,10 @@
                             <div class="author"><?php _e('Miguel Milá, 2024', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg" data-fancybox="M64" data-caption="">
+                            <a  href="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg" data-fancybox="gallery-M64" data-caption="">
                                 <img src="/assets/img/products/M64-Table-Santa Cole-Euroluce-Enric-Badrinas-2025-2389.jpg">
                             </a>
-                            <a  href="/assets/img/products/M64-table-Blanca-Yosigo-2024-244553.jpg" data-fancybox="M64" data-caption="">
+                            <a  href="/assets/img/products/M64-table-Blanca-Yosigo-2024-244553.jpg" data-fancybox="gallery-M64" data-caption="">
                                 <img src="/assets/img/products/M64-table-Blanca-Yosigo-2024-244553.jpg">
                             </a>
                         </div>
@@ -380,11 +380,11 @@
                             <div class="author"><?php _e('Antoni Arola, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/" data-fancybox="gira-mini" data-caption="">
+                            <a href="/assets/img/products/" data-fancybox="gallery-gira-mini" data-caption="">
                                 <img src="/assets/img/products/" />
                             </a>
                             
-                            <a  href="/assets/img/products/" data-fancybox="gira-mini" data-caption="">
+                            <a  href="/assets/img/products/" data-fancybox="gallery-gira-mini" data-caption="">
                                 <img src="/assets/img/products/" />
                             </a>
                         </div>
@@ -401,13 +401,13 @@
                             <div class="author"><?php _e('Oscar Tusquets, 1986', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg" data-fancybox="bib-luz" data-caption="">
+                            <a  href="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg" data-fancybox="gallery-bib-luz" data-caption="">
                                 <img src="/assets/img/products/BibLuz_SantaCole_EnricBadrinas_2024_88_RET.jpg">
                             </a>
-                            <a  href="/assets/img/products/bib-luz-2.jpg" data-fancybox="bib-luz" data-caption="">
+                            <a  href="/assets/img/products/bib-luz-2.jpg" data-fancybox="gallery-bib-luz" data-caption="">
                                 <img src="/assets/img/products/bib-luz-2.jpg" />
                             </a>
-                            <a  href="/assets/img/products/Bib-Luz-Coke-Bartrina-Casa-Costa-2025-1016.jpg" data-fancybox="bib-luz" data-caption="">
+                            <a  href="/assets/img/products/Bib-Luz-Coke-Bartrina-Casa-Costa-2025-1016.jpg" data-fancybox="gallery-bib-luz" data-caption="">
                                 <img src="/assets/img/products/Bib-Luz-Coke-Bartrina-Casa-Costa-2025-1016.jpg" />
                             </a>
                         </div>
@@ -426,10 +426,10 @@
                             <div class="badge-product"><?php _e('IF Design Product design Hannover 2021', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg" data-fancybox="sylvestrina" data-caption="">
+                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg" data-fancybox="gallery-sylvestrina" data-caption="">
                                 <img src="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg">
                             </a>
-                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke-Bartrina-Clara-2025-0444.jpg" data-fancybox="sylvestrina" data-caption="">
+                            <a  href="/assets/img/products/Sylvestrina-Blanca-Coke-Bartrina-Clara-2025-0444.jpg" data-fancybox="gallery-sylvestrina" data-caption="">
                                 <img src="/assets/img/products/Sylvestrina-Blanca-Coke-Bartrina-Clara-2025-0444.jpg">
                             </a>
                         </div>
@@ -447,10 +447,10 @@
                             <div class="badge-product"><?php _e('Delta de Plata 1999', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg" data-fancybox="shiro" data-caption="">
+                            <a  href="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg" data-fancybox="gallery-shiro" data-caption="">
                                 <img src="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg">
                             </a>
-                            <a  href="/assets/img/products/Shiro_25_45_exterior_ON_JaraVarela_Delta_SantaCole_2023_10_RET.jpg" data-fancybox="shiro" data-caption="">
+                            <a  href="/assets/img/products/Shiro_25_45_exterior_ON_JaraVarela_Delta_SantaCole_2023_10_RET.jpg" data-fancybox="gallery-shiro" data-caption="">
                                 <img src="/assets/img/products/Shiro_25_45_exterior_ON_JaraVarela_Delta_SantaCole_2023_10_RET.jpg">
                             </a>
                         </div>
@@ -468,10 +468,10 @@
                             <div class="author"><?php _e('Carles Riart, 1976', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a  href="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg" data-fancybox="colilla" data-caption="">
+                            <a  href="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg" data-fancybox="gallery-colilla" data-caption="">
                                 <img src="/assets/img/products/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpg">
                             </a>
-                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_020_230441_La_Colilla_Babel.jpg" data-fancybox="colilla" data-caption="">
+                            <a  href="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_020_230441_La_Colilla_Babel.jpg" data-fancybox="gallery-colilla" data-caption="">
                                 <img src="/assets/img/products/Campana_Verano_2023_Cadaques_Arquitectura_G_Jara_Varela_020_230441_La_Colilla_Babel.jpg">
                             </a>
                         </div>
@@ -490,10 +490,10 @@
                             <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg" data-fancybox="alubat" data-caption="">
+                            <a href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg" data-fancybox="gallery-alubat" data-caption="">
                                 <img src="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4752.jpg" />
                             </a>
-                            <a  href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4770_RET.jpg" data-fancybox="alubat" data-caption="">
+                            <a  href="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4770_RET.jpg" data-fancybox="gallery-alubat" data-caption="">
                                 <img src="/assets/img/products/Yosigo_Solo_Invierno_2024_Alubat_4770_RET.jpg" />
                             </a>
                         </div>
