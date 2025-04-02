@@ -76,11 +76,11 @@
             </section>
             <!-- Introduction Products -->
             <section id="introduction" class="introduction text-white text-lead">
-                <div class="col title">
+                <div class="title">
                     <h2><?php _e('Euroluce 2025', 'landing-euroluce25'); ?></h2>
                     <h3><?php _e('Memoria y futuro. Familiaridad y sorpresa.', 'landing-euroluce25'); ?></h3>
                 </div>
-                <div class="col text">
+                <div class="text">
                     <h2><?php _e('Hall 04, C06', 'landing-euroluce25'); ?></h2>
                     <p><?php _e('April 8-13', 'landing-euroluce25'); ?></p>
                     <p><?php _e('Laborum ea proident irure excepteur. <em>Mollit ad aliquip magna duis irure</em> proident dolore dolore adipisicing mollit aute laborum. Ea culpa occaecat proident id fugiat id anim. Consectetur nisi nulla et velit duis Lorem ea excepteur. Irure est officia nostrud ut eu magna aliqua cillum magna aliquip. Lorem aliqua non non aliquip adipisicing veniam.', 'landing-euroluce25'); ?></p>

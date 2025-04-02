@@ -41,6 +41,8 @@
     --spacing-x-small: clamp( 6px, calc(10/1920 * 100vw) , 10px);
     --spacing-underline: clamp( 18px, calc(18/1920 * 100vw) , 18px);
     --spacing-w-product-card: calc(50% - (var(--spacing-gap-big)));
+    --leading-p: 150%;
+    --leading-lead: 145%;
     --color-blue-euroluce: #1E2837;
   }
 }
@@ -385,6 +387,8 @@ html[lang="es-ES"] {
   p, a {
     font-family: var(--font-works-book);
     font-size: var(--text-p);
+    --tw-leading: var(--leading-p);
+    line-height: var(--leading-p);
     em {
       font-style: initial;
       font-family: var(--font-works-italic);
@@ -636,6 +640,8 @@ html[lang="es-ES"] {
         flex-direction: column;
         padding-top: calc(var(--spacing) * 0.5);
         text-align: end;
+        --tw-leading: var(--leading-lead);
+        line-height: var(--leading-lead);
         @media (max-width: 768px) {
           text-align: start;
         }
@@ -647,14 +653,19 @@ html[lang="es-ES"] {
     h2, h3 {
       padding-bottom: calc(var(--spacing) * 0);
       font-family: var(--font-works-book);
+      --tw-leading: var(--leading-lead);
+      line-height: var(--leading-lead);
     }
     h2 {
-      margin-bottom: calc(var(--spacing) * -0.5);
       font-family: var(--font-works-bold);
+      --tw-leading: var(--leading-lead);
+      line-height: var(--leading-lead);
     }
     p {
       padding-bottom: var(--spacing-nav-y);
       font-size: var(--text-lead);
+      --tw-leading: var(--leading-lead);
+      line-height: var(--leading-lead);
     }
   }
   #products {
@@ -668,6 +679,8 @@ html[lang="es-ES"] {
     color: var(--color-blue-euroluce);
     & > p {
       font-size: var(--text-lead);
+      --tw-leading: var(--leading-lead);
+      line-height: var(--leading-lead);
     }
     .products-reel {
       display: grid;
@@ -787,6 +800,8 @@ html[lang="es-ES"] {
       grid-column: span 12 / span 12;
       text-indent: var(--spacing-indent);
       font-size: var(--text-lead);
+      --tw-leading: var(--leading-lead);
+      line-height: var(--leading-lead);
       @media (width >= 48rem) {
         grid-column: span 9 / span 9;
       }

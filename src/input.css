@@ -91,6 +91,9 @@
 
 
     --spacing-w-product-card: calc(50% - (var(--spacing-gap-big)));
+
+    --leading-p: 150%;
+    --leading-lead: 145%;
    
     /* Colors */
     --color-blue-euroluce: #1E2837;
@@ -148,6 +151,7 @@ html[lang="es-ES"] {
     p, a{
         @apply
         text-p
+        leading-p
         font-works-book;
     
         em {
@@ -156,6 +160,7 @@ html[lang="es-ES"] {
             font-works-italic;
         }
     }
+
     nav {
         @apply
         font-works-book
@@ -417,6 +422,7 @@ html[lang="es-ES"] {
             &.title {
                 @apply
                 pt-0.5
+                leading-lead
                 text-end
                 flex
                 flex-col;
@@ -437,19 +443,22 @@ html[lang="es-ES"] {
     
         h2, h3 {
             @apply
+            leading-lead
             font-works-book
             pb-0;
         }
     
         h2 {
             @apply
-            -mb-0.5
+            
+            leading-lead
             font-works-bold;
         }
     
         p {
             @apply
             pb-nav-y
+            leading-lead
             text-lead;
         }
     }
@@ -467,6 +476,7 @@ html[lang="es-ES"] {
     
         & > p {
             @apply
+            leading-lead
             text-lead;
         }
     
@@ -637,6 +647,7 @@ html[lang="es-ES"] {
             col-span-12
             md:col-span-9
             indent-indent
+            leading-lead
             text-lead;
         }
         .kits {
