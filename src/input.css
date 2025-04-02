@@ -716,7 +716,7 @@ html[lang="es-ES"] {
         @apply
         !h-auto
         !px-section-big
-        pb-section-big;
+        pb-nav-y;
         p, a {
             @apply
             text-p

@@ -859,7 +859,7 @@ html[lang="es-ES"] {
   .contact-endpoints {
     height: auto !important;
     padding-inline: var(--spacing-section-big) !important;
-    padding-bottom: var(--spacing-section-big);
+    padding-bottom: var(--spacing-nav-y);
     p, a {
       font-family: var(--font-intl);
       font-size: var(--text-p);
