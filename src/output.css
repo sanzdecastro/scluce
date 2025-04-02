@@ -586,6 +586,7 @@ html[lang="es-ES"] {
     gap: var(--spacing-section-small);
     padding-inline: var(--spacing-big-x);
     font-family: var(--font-works-book);
+    color: var(--color-blue-euroluce);
     & > p {
       font-size: var(--text-lead);
     }
