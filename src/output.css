@@ -753,6 +753,7 @@ html[lang="es-ES"] {
           font-family: var(--font-works-book);
           h3 {
             text-underline-offset: 25%;
+            text-decoration-thickness: 1px;
             position: relative;
             margin-left: var(--spacing-indent);
             width: fit-content;

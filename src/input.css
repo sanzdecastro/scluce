@@ -583,6 +583,7 @@ html[lang="es-ES"] {
                     pb-nav-y;
                     h3 {
                         text-underline-offset: 25%;
+                        text-decoration-thickness: 1px;
                         @apply
                         w-fit
                         font-works-book
