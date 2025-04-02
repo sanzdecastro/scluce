@@ -424,23 +424,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Animation Columns
-  const itemsOdd = document.querySelectorAll(".products-gallery .product-card");
+  if (windowWidth > 768) {
+    const itemsOdd = document.querySelectorAll(".products-gallery .product-card");
 
-  itemsOdd.forEach((item) => {
-    gsap.set(item, {
-      yPercent: 20,
+    itemsOdd.forEach((item) => {
+      gsap.set(item, {
+        yPercent: 20,
+      });
+  
+      gsap.to(item, {
+        yPercent: 0,
+        scrollTrigger: {
+          trigger: item,
+          start: "top bottom",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
     });
-
-    gsap.to(item, {
-      yPercent: 0,
-      scrollTrigger: {
-        trigger: item,
-        start: "top bottom",
-        end: "bottom top",
-        scrub: true,
-      },
-    });
-  });
-
+  }
   
 });
