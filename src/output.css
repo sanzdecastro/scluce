@@ -283,6 +283,7 @@ html, body, main {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   overflow-x: hidden;
+  font-family: var(--font-intl);
 }
 html[lang="en-US"] {
   .lang-es {
@@ -323,6 +324,9 @@ html[lang="es-ES"] {
     color: var(--color-white);
     mix-blend-mode: exclusion;
     .slides {
+      li {
+        margin-bottom: calc(var(--spacing) * 1);
+      }
       a {
         position: relative;
         font-size: var(--text-lead);
@@ -576,6 +580,9 @@ html[lang="es-ES"] {
       gap: var(--spacing-gap-initial);
       row-gap: var(--spacing-section-small);
       @media (width >= 48rem) {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+      @media (width >= 64rem) {
         grid-template-columns: repeat(7, minmax(0, 1fr));
       }
       .image-wrapper {

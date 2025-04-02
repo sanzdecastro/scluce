@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const windowWidth = window.innerWidth;
+
+
   Fancybox.bind("[data-fancybox]", {
     hideScrollbar: false,
     Carousel: {
@@ -56,9 +59,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  initLenis();
-
-  const windowWidth = window.innerWidth;
+  // Aplicar Smooth Scroll Lenis a partir de Tablet
+  if (windowWidth > 768) {
+    initLenis();
+  }
 
   // ANIMACIONES SCROLLTRIGGER
 
@@ -433,4 +437,6 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   });
+
+  
 });
