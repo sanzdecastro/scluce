@@ -748,7 +748,7 @@ html[lang="es-ES"] {
   filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
 }
 .fancybox__toolbar {
-  --f-button-bg: #FFFFFF;
+  --f-button-bg: transparent;
   --f-button-hover-bg: #FFFFFF;
   text-shadow: none;
   font-family: var(--font-works-book);

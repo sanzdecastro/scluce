@@ -679,7 +679,7 @@
 }
 
 .fancybox__toolbar {
-    --f-button-bg: #FFFFFF;
+    --f-button-bg: transparent;
     --f-button-hover-bg: #FFFFFF;
     text-shadow: none;
     @apply
