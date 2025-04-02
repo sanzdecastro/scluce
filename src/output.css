@@ -39,7 +39,6 @@
     --spacing-nav-x: clamp( 14px, calc(64/1920 * 100vw) , 64px);
     --spacing-small: clamp( 10px, calc(13/1920 * 100vw) , 13px);
     --spacing-x-small: clamp( 6px, calc(10/1920 * 100vw) , 10px);
-    --spacing-underline: clamp( 18px, calc(18/1920 * 100vw) , 18px);
     --spacing-w-product-card: calc(50% - (var(--spacing-gap-big)));
     --leading-p: 150%;
     --leading-lead: 145%;
@@ -753,23 +752,14 @@ html[lang="es-ES"] {
           padding-bottom: var(--spacing-nav-y);
           font-family: var(--font-works-book);
           h3 {
+            text-underline-offset: 25%;
             position: relative;
             margin-left: var(--spacing-indent);
             width: fit-content;
             padding-bottom: var(--spacing-nav-y);
             font-family: var(--font-works-book);
             font-size: var(--text-md);
-            &:after {
-              position: absolute;
-              bottom: var(--spacing-underline);
-              left: calc(var(--spacing) * 0);
-              display: block;
-              height: 1px;
-              width: 100%;
-              background-color: var(--color-blue-euroluce);
-              --tw-content: '';
-              content: var(--tw-content);
-            }
+            text-decoration-line: underline;
           }
           p {
             margin-bottom: var(--spacing-small);

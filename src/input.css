@@ -582,24 +582,16 @@ html[lang="es-ES"] {
                     pt-x-medium
                     pb-nav-y;
                     h3 {
+                        text-underline-offset: 25%;
                         @apply
                         w-fit
                         font-works-book
                         text-md
                         relative
                         pb-nav-y
+                        underline
                         ml-indent;
-                        &:after {
-                            @apply
-                            content-['']
-                            block
-                            absolute
-                            w-full
-                            left-0
-                            bottom-underline
-                            h-[1px]
-                            bg-blue-euroluce;
-                        }
+                        
                     }
                     p {
                         @apply
