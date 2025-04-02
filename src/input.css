@@ -82,6 +82,7 @@
 
     --spacing-big-x: clamp( 14px, calc(240/1920 * 100vw) , 240px);
     --spacing-medium: clamp( 14px, calc(40/1920 * 100vw) , 40px);
+    --spacing-x-medium: clamp( 28px, calc(28/1920 * 100vw) , 28px);
     --spacing-nav-y: clamp( 14px, calc(24/1920 * 100vw) , 16px);
     --spacing-nav-x: clamp( 14px, calc(64/1920 * 100vw) , 64px);
     --spacing-small: clamp( 10px, calc(13/1920 * 100vw) , 13px);
@@ -568,7 +569,8 @@ html[lang="es-ES"] {
                     @apply
                     font-works-book
                     pr-nav-y
-                    py-nav-y;
+                    pt-x-medium
+                    pb-nav-y;
                     h3 {
                         @apply
                         w-fit
