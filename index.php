@@ -251,7 +251,7 @@
                     <div  id="TMA" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('TMA', 'landing-euroluce25'); ?></div>
-                            <div class="author"><?php _e('Miguel Milá, 2025', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                         
@@ -421,9 +421,9 @@
                     <div  id="sylvestrina" class="product-card float-right">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Sylvestrina', 'landing-euroluce25'); ?></div>
-                            <div class="badge"><?php _e('New Finish', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('New Finish', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Enric Sòria, Jordi Garcés 1974', 'landing-euroluce25'); ?></div>
-                            <div class="badge"><?php _e('IF Design Product design Hannover 2021', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('IF Design Product design Hannover 2021', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/assets/img/products/Sylvestrina-Blanca-Coke Bartrina-Vasto-2025-1504.jpg" data-fancybox="sylvestrina" data-caption="">
@@ -444,7 +444,7 @@
                         <div class="product-card-header">
                             <div class="name"><?php _e('Shiro', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Antoni Arola 1998 / 2025', 'landing-euroluce25'); ?></div>
-                            <div class="badge"><?php _e('Delta de Plata 1999', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('Delta de Plata 1999', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/assets/img/products/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1108.jpg" data-fancybox="shiro" data-caption="">
@@ -486,7 +486,7 @@
                     <div id="cesita-alubat" class="product-card float-left">
                         <div class="product-card-header">
                             <div class="name"><?php _e('Cestita Alubat', 'landing-euroluce25'); ?></div>
-                            <div class="badge"><?php _e('New finishes', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('New finishes', 'landing-euroluce25'); ?></div>
                             <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">

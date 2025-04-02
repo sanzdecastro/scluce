@@ -139,11 +139,12 @@ html[lang="es-ES"] {
     h1, h2, h3, h4, h5 {
         @apply
         text-lead
+        leading-7
         pb-nav-y
         font-intl;
     }
     
-    p {
+    p, a{
         @apply
         text-p
         font-works-book;
@@ -533,7 +534,7 @@ html[lang="es-ES"] {
                     py-nav-y
                     font-intl
                     text-md;
-                    .badge {
+                    .badge-product {
                         @apply
                         font-intl-light
                         indent-indent;
@@ -679,7 +680,46 @@ html[lang="es-ES"] {
 
     #contact-form  {
         @apply
+        items-start
+        flex
+        flex-col
+        pb-section-small;
+
+        .wpcf7 {
+            @apply
+            grid
+            grid-cols-12
+            w-full
+            mt-section-small;
+            form {
+                @apply
+                font-intl
+                col-start-1
+                col-span-7;
+                span {
+                    @apply
+                    font-intl;
+                }
+                input {
+                    @apply
+                    placeholder:font-intl;
+                }
+            }
+        }
+
+        
+    }
+
+    .contact-endpoints {
+        @apply
+        !h-auto
+        !px-section-big
         pb-section-big;
+        p, a {
+            @apply
+            text-p
+            font-intl;
+        }
     }
     
     .hidden {
