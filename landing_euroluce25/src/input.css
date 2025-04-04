@@ -208,6 +208,10 @@ html[lang="es-ES"] {
             flex
             gap-x-small
             flex-col;
+            @media (min-width: 768px) {
+                @apply
+                hidden;
+            }
             li {
                 @apply
                 h-fit
