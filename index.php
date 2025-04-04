@@ -22,7 +22,7 @@
 <body>
     <div class="euroluce-landing page-template-landing-euroluce25 bg-blue-euroluce overflow-x-hidden transition duration-300 ease-in ">
         <!-- Menu items -->
-        <nav>
+        <nav class="euroluce-nav">
             <span class="dummy"></span>
             <ul class="slides">
                 <li><a href="#first">1</a></li>
@@ -230,7 +230,7 @@
                     <!-- Product card -->
                     <div  id="lamparaprima" class="product-card float-right">
                         <div class="product-card-header">
-                            <p><?php _e('Lamparaprima', 'landing-euroluce25'); ?></div>
+                            <p><?php _e('Lamparaprima', 'landing-euroluce25'); ?></p>
                             <div class="author"><?php _e('Pete Sans, 1979', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">

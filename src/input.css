@@ -161,7 +161,7 @@ html[lang="es-ES"] {
         }
     }
 
-    nav {
+    nav.euroluce-nav {
         @apply
         font-works-book
         mix-blend-exclusion
@@ -739,19 +739,19 @@ html[lang="es-ES"] {
   /* Fancy Box  */
     
   .fancybox__container {
-    --fancybox-bg: #FFFFFF;
-    --fancybox-color: var(--color-blue-euroluce);
-    --fancybox-hover-color:  var(--color-blue-euroluce);
-    --f-button-svg-filter: none;
+    --fancybox-bg: #FFFFFF!important;
+    --fancybox-color: var(--color-blue-euroluce)!important;
+    --fancybox-hover-color:  var(--color-blue-euroluce)!important;
+    --f-button-svg-filter: none!important;
     @apply
     font-works-book
     drop-shadow-none;
 }
 
 .fancybox__toolbar {
-    --f-button-bg: transparent;
-    --f-button-hover-bg: #FFFFFF;
-    text-shadow: none;
+    --f-button-bg: transparent!important;
+    --f-button-hover-bg: #FFFFFF!important;
+    text-shadow: none!important;
     @apply
     font-works-book
     drop-shadow-none;
@@ -759,20 +759,20 @@ html[lang="es-ES"] {
 
 .f-button:active:not([disabled]) {
     @apply
-    bg-transparent;
+    !bg-transparent;
 }
 
 .f-button svg {
     @apply
-    filter-none;
+    !filter-none;
 }
 
 .fancybox__caption {
     @apply
-    text-p;
+    !text-p;
 }
 
 .is-compact .fancybox__footer {
     @apply
-    bg-white;
+    !bg-white;
 }
