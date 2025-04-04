@@ -208,10 +208,6 @@ html[lang="es-ES"] {
             flex
             gap-x-small
             flex-col;
-            @media (min-width: 768px) {
-                @apply
-                hidden;
-            }
             li {
                 @apply
                 h-fit
@@ -261,7 +257,7 @@ html[lang="es-ES"] {
     }
 
     @media (max-width: 768px) {
-        nav {
+        nav.euroluce-nav {
             @apply
             pointer-events-none
             w-full

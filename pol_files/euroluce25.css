@@ -433,10 +433,11 @@ html[lang="es-ES"] {
     }
     .menu {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       gap: var(--spacing-x-small);
       column-gap: var(--spacing-small);
       li {
+        display: none;
         height: fit-content;
         width: fit-content;
         a {
@@ -491,6 +492,9 @@ html[lang="es-ES"] {
         pointer-events: auto;
         flex-direction: row;
         justify-content: space-between;
+        li {
+          display: block!important;
+        }
       }
     }
   }
@@ -648,6 +652,7 @@ html[lang="es-ES"] {
         }
         h2 {
           font-family: var(--font-intl);
+          margin-bottom: 0px;
         }
       }
     }
@@ -656,6 +661,7 @@ html[lang="es-ES"] {
       font-family: var(--font-works-book);
       --tw-leading: var(--leading-lead);
       line-height: var(--leading-lead);
+      margin-bottom: 2px;
     }
     h2 {
       font-family: var(--font-works-bold);

@@ -78,8 +78,8 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                 <div class="col text">
                     <h2><?php _e('Hall 04, C06', 'landing-euroluce25'); ?></h2>
                     <p><?php _e('April 8-13', 'landing-euroluce25'); ?></p>
-                    <p><?php _e('Laborum ea proident irure excepteur. <em>Mollit ad aliquip magna duis irure</em> proident dolore dolore adipisicing mollit aute laborum. Ea culpa occaecat proident id fugiat id anim. Consectetur nisi nulla et velit duis Lorem ea excepteur. Irure est officia nostrud ut eu magna aliqua cillum magna aliquip. Lorem aliqua non non aliquip adipisicing veniam.', 'landing-euroluce25'); ?></p>
-                    <p><?php _e('Reprehenderit officia amet nostrud amet ullamco sunt dolor ipsum enim do. Excepteur sunt culpa officia sit non do et dolore ea. Lorem minim amet irure ut ea laborum culpa pariatur. Laboris sunt et amet cupidatat aute dolore ad aute dolore et enim pariatur anim magna amet. Sit incididunt exercitation aliqua et aliqua ex non tempor tempor aute. Magna veniam mollit culpa ea officia cupidatat laboris voluptate laboris laborum adipisicing incididunt ullamco. Do est voluptate magna eu proident.', 'landing-euroluce25'); ?></p>
+                    <p><?php _e('For over four decades, we have been independently editing design pieces with conceptual freedom, setting no limits on the language of light. Our lamps embody a sense of wonder and a deep curiosity for shaping light—guiding it from the rational to the emotional, seeking the universal within the particular.', 'landing-euroluce25'); ?></p>
+                    <p><?php _e('Our stand at Euroluce is an invitation to experience, at first glance, the essence of our vision—rooted more in history than in trends, in silence rather than in noise. Conceived as a canvas that speaks the language of light and shadow, it offers an immersive space where one momentarily forgets the lamps to focus on what truly matters: the light itself. Only then does the object reveal its story.', 'landing-euroluce25'); ?></p>
                 </div>
             </section>
             <!-- Products -->
@@ -154,7 +154,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                     <a href="#cirio-pana">
                         <div class="product-item">
                             <div class="image-wrapper">
-                                <img  src="/wp-content/themes/santa-cole/img/euroluce25/products/placeholder.jpg">
+                                <img  src="/wp-content/themes/santa-cole/img/euroluce25/products/cirio-pana.jpg">
                             </div>
                             <p>Cirio Pana</p>
                         </div>
@@ -385,12 +385,12 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             <div class="author"><?php _e('Antoni Arola, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
-                            <a href="/wp-content/themes/santa-cole/img/euroluce25/products/" data-fancybox="gallery-gira-mini" data-caption="">
-                                <img src="/wp-content/themes/santa-cole/img/euroluce25/products/" />
+                            <a href="/wp-content/themes/santa-cole/img/euroluce25/products/cirio-pana-jpg" data-fancybox="gallery-cirio-pana" data-caption="">
+                                <img src="/wp-content/themes/santa-cole/img/euroluce25/products/cirio-pana-jpg" />
                             </a>
                             
-                            <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/" data-fancybox="gallery-gira-mini" data-caption="">
-                                <img src="/wp-content/themes/santa-cole/img/euroluce25/products/" />
+                            <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/" data-fancybox="gallery-cirio-pana" data-caption="">
+                                <img src="/wp-content/themes/santa-cole/img/euroluce25/products/cirio-pana-jpg" />
                             </a>
                         </div>
                         <div class="description">
@@ -520,7 +520,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
 			<div class="euroluce-landing">
 			<section id="downloads">
                 <h2><?php _e('Downloads', 'landing-euroluce25'); ?></h2>
-                <p><?php _e('Texto explicativo. Laborum ea proident irure excepteur. Mollit ad aliquip magna duis irure proident dolore dolore adipisicing mollit aute laborum. Do labore nulla cupidatat cillum dolor consequat aliqua nisi esse ea ea excepteur commodo. Tempor ea do irure exercitation ea exercitation fugiat. Quis elit voluptate esse in est elit eiusmod ea excepteur. Adipisicing id consequat amet ad.', 'landing-euroluce25'); ?></p>
+              
                 <div class="kits">
                     <a href="">
                         <div class="kit">
@@ -544,7 +544,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
             </section>
 				<section id="contact-form">
 					<h2><?php _e('Contact form', 'landing-euroluce25'); ?></h2>
-					<p><?php _e('Texto explicativo Contact Form', 'landing-euroluce25'); ?></p>
+					
 					
 					<?php echo do_shortcode('[contact-form-7 id="294" title="Formulario de contacto"]'); ?>
 				</section>
