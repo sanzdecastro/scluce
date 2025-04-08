@@ -177,6 +177,11 @@ html[lang="es-ES"] {
         px-nav-x
         py-medium;
 
+        @media (min-width: 768px) {
+            @apply
+            justify-center;
+        }
+
         
     
         .slides {
@@ -278,6 +283,7 @@ html[lang="es-ES"] {
             }
         }
     }
+    
     
     section {
         &:first-of-type {

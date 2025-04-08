@@ -409,6 +409,9 @@ html[lang="es-ES"] {
     font-family: var(--font-works-book);
     color: var(--color-white);
     mix-blend-mode: exclusion;
+    @media (min-width: 768px) {
+      justify-content: center;
+    }
     .slides {
       li {
         margin-bottom: calc(var(--spacing) * 1);
