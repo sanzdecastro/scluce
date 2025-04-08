@@ -73,7 +73,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
             <section id="introduction" class="introduction text-white text-lead">
                 <div class="col title">
                     <h2><?php _e('Euroluce 2025', 'landing-euroluce25'); ?></h2>
-                    <h3><?php _e('Continuity and Change', 'landing-euroluce25'); ?></h3>
+                    <h3><?php _e('Dream and Memory', 'landing-euroluce25'); ?></h3>
                 </div>
                 <div class="col text">
                     <h2><?php _e('Hall 04, C06', 'landing-euroluce25'); ?></h2>
@@ -205,8 +205,8 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                     <!-- Product card -->
                     <div id="tekio-mayor" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">Tekiò Mayor</div>
-                            <div class="author">Anthony Dickens, 2025</div>
+                        <div class="name"><?php _e('Tekiò Mayor', 'landing-euroluce25'); ?></div>
+                        <div class="author"><?php _e('Anthony Dickens, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/tekio-mayor/Tekio-Mayor-P2-Santa Cole-Euroluce-Enric-Badrinas-2025-2694.jpg" data-fancybox="gallery-tekio-mayor" data-caption="">
@@ -223,16 +223,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>A Presence That Commands</h3>
-                            <p>Tekiò Mayor is the grander expression of Tekiò. Standing at the same height and with equal luminosity as its smaller sibling, it exudes a forceful presence. As a single module, it evokes the luminous sculptures of Isamu Noguchi; as a double, it recalls the grand rice-paper lanterns that often grace the entrances of Shinto temples.</p>
-                            <p>Tekiò –meaning “adaptation” in Japanese– merges centuries-old craftsmanship with Warm to Dim LED technology, allowing for adjustable intensity and color temperature in tandem. Highly technical structures wrapped in handmade Japanese paper. Alone or arranged in series, its radiance shifts from a whisper to an exclamation.</p>
+                            <h3><?php _e('A Presence That Commands', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Tekiò Mayor is the grander expression of Tekiò. Standing at the same height and with equal luminosity as its smaller sibling, it exudes a forceful presence. As a single module, it evokes the luminous sculptures of Isamu Noguchi; as a double, it recalls the grand rice-paper lanterns that often grace the entrances of Shinto temples.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Tekiò –meaning “adaptation” in Japanese– merges centuries-old craftsmanship with Warm to Dim LED technology, allowing for adjustable intensity and color temperature in tandem. Highly technical structures wrapped in handmade Japanese paper. Alone or arranged in series, its radiance shifts from a whisper to an exclamation.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="lamparaprima" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">Lamparaprima</div>
-                            <div class="author">Pete Sans, 1979</div>
+                        <div><?php _e('Lamparaprima', 'landing-euroluce25'); ?></div>
+                        <div class="author"><?php _e('Pete Sans, 1979', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a href="/wp-content/themes/santa-cole/img/euroluce25/products/lamparaprima/Lamparaprima-Coke-Bartrina-Casa-Costa-2025-0833.jpg" data-fancybox="gallery-lamparaprima" data-caption="">
@@ -252,16 +252,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Inventive Ubiquity</h3>
-                            <p>Designed to rest on a desk or hang from a wall, Lamparaprima consists of a metal rod supporting an LED tube, encased in a rotating visor-like shade. By bending and twisting a clothes hanger, Pete Sans came upon an ingenious and expressive solution that would become his first commercial lamp and the second product ever issued by Santa & Cole.</p>
-                            <p>“There is always an element of invention in my work”, explains the creator. The 2025 version introduces a low-voltage (12V) system that gives the structure itself the ability to conduct electricity. This requires an LED light source, even if it's still visually reminiscent of a traditional soffit, and further allows it to operate with a simple rotation of the shade to switch it on or off.</p>
+                            <h3><?php _e('Inventive Ubiquity', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Designed to rest on a desk or hang from a wall, Lamparaprima consists of a metal rod supporting an LED tube, encased in a rotating visor-like shade. By bending and twisting a clothes hanger, Pete Sans came upon an ingenious and expressive solution that would become his first commercial lamp and the second product ever issued by Santa & Cole.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e("“There is always an element of invention in my work”, explains the creator. The 2025 version introduces a low-voltage (12V) system that gives the structure itself the ability to conduct electricity. This requires an LED light source, even if it's still visually reminiscent of a traditional soffit, and further allows it to operate with a simple rotation of the shade to switch it on or off.", 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="TMA" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">TMA</div>
-                            <div class="author">Miguel Milá, 1981</div>
+                            <div class="name"><?php _e('TMA', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             
@@ -276,16 +276,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Refinement Upon Refinement</h3>
-                            <p>With a mastery of form and function, Miguel Milá distilled the three basic elements of any lamp: structure, electrical components and shade. A cross-shaped base, a sturdy vertical shaft and a lightweight frame supporting the bulb holder. The shade rotates around its axis and adjusts in height with a simple rubber ring –like a sail hoisted up a mast. And, of course, its hallmark on/off switch: a gentle tug on the cord. Light yet robust, it is easily moved.</p>
-                            <p>A direct evolution of the TMM (1961), this lesser known yet even more refined design is the culmination of Miguel Milá’s relentless quest for simplicity. Stripped to its essence, nothing can be taken away. TMA's naked form speaks to its economy: this is the most accessible and youthful member of the TM family</p>
+                            <h3><?php _e('Refinement Upon Refinement', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('With a mastery of form and function, Miguel Milá distilled the three basic elements of any lamp: structure, electrical components and shade. A cross-shaped base, a sturdy vertical shaft and a lightweight frame supporting the bulb holder. The shade rotates around its axis and adjusts in height with a simple rubber ring –like a sail hoisted up a mast. And, of course, its hallmark on/off switch: a gentle tug on the cord. Light yet robust, it is easily moved.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e("A direct evolution of the TMM (1961), this lesser known yet even more refined design is the culmination of Miguel Milá’s relentless quest for simplicity. Stripped to its essence, nothing can be taken away. TMA's naked form speaks to its economy: this is the most accessible and youthful member of the TM family", 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="alterna" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">Alterna</div>
-                            <div class="author">Júlia Esqué, 2025</div>
+                            <div class="name"><?php _e('Alterna', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Júlia Esqué, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a href="/wp-content/themes/santa-cole/img/euroluce25/products/alterna/Alterna-Santa Cole-Euroluce-Enric-Badrinas-2025-2597.jpg" data-fancybox="gallery-alterna" data-caption="">
@@ -300,16 +300,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Alternating between Full and Empty</h3>
-                            <p>Tension, transparency, balance. A structured frame extends a square-sectioned prismatic shade, crafted from photographic filter material. The rigidity of the skeleton transforms the flat into volume, shaping a body. Four stitched pockets secure transverse rods that define the rhythm of the surface. A translucent skin refines the light.</p>
-                            <p>Alterna floats solo or in clusters. Its modular design allows for scalable compositions that expand freely across space in vertical or horizontal formations, alternating moments of expression and stillness</p>
+                            <h3><?php _e('Alternating between Full and Empty', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Tension, transparency, balance. A structured frame extends a square-sectioned prismatic shade, crafted from photographic filter material. The rigidity of the skeleton transforms the flat into volume, shaping a body. Four stitched pockets secure transverse rods that define the rhythm of the surface. A translucent skin refines the light.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Alterna floats solo or in clusters. Its modular design allows for scalable compositions that expand freely across space in vertical or horizontal formations, alternating moments of expression and stillness', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="gira-mini" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">Gira Mini</div>
-                            <div class="author">J.M. Massana, J.M. Tremoleda, Mariano Ferrer, 2023</div>
+                            <div class="name"><?php _e('Gira Mini', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('J.M. Massana, J.M. Tremoleda, Mariano Ferrer, 2023', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a href="/wp-content/themes/santa-cole/img/euroluce25/products/gira-mini/Gira Mini-Coke Bartrina-Clara-2025-0257.jpeg" data-fancybox="gallery-gira-mini" data-caption="">
@@ -330,15 +330,15 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Rotation in Hand</h3>
-                            <p>Gira Mini distills the essence of portable lighting into a compact design that retains the virtues of its older sibling. An ingenious ball-joint base, paired with an adjustable shade around a spherical LED core, grants complete freedom of movement, directing light precisely where it is needed. With its battery-powered mobility and dual light intensity, Gira Mini is both exacting and discreet –illuminating the relevant area without drawing attention to itself.</p>
+                            <h3><?php _e('Rotation in Hand', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Gira Mini distills the essence of portable lighting into a compact design that retains the virtues of its older sibling. An ingenious ball-joint base, paired with an adjustable shade around a spherical LED core, grants complete freedom of movement, directing light precisely where it is needed. With its battery-powered mobility and dual light intensity, Gira Mini is both exacting and discreet –illuminating the relevant area without drawing attention to itself.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="bella-durmiente" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">La Bella Durmiente</div>
-                            <div class="author">Nina Masó and Gabriel Ordeig Cole, 1985</div>
+                            <div class="name"><?php _e('La Bella Durmiente', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Nina Masó and Gabriel Ordeig Cole, 1985', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/bella-durmiente/La_Bella_Durmiente_Jara_Varela_SantaCole_2023_04.jpeg" data-fancybox="gallery-bella-durmiente" data-caption="">
@@ -356,13 +356,12 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             
                         </div>
                         <div class="description">
-                            <h3>Awaken to a Joyful Light</h3>
-                            <p>Designed by Santa & Cole co-founders Gabriel Ordeig Cole and Nina Masó, La Bella Durmiente (Sleeping Beauty) is a totemic volume that explores the expressive potential of color, playing with contrasts between warm and cold hues. The result is a visually dynamic and balanced composition. Contemplation and imagination. A composition that nods to the geometric abstraction of Piet Mondrian or Theo van Doesburg.</p>
-                            <p>Born in 1986 as a defiant response to an era dominated by cold halogen lights and stark metal structures, this lamp championed colorful fluorescence (now LED) when this light source was considered blue and soulless.</p>
-                            <p><em>“It was a time of artistic expansion without predefined limits–very sweet, very beautiful. Critics ignited a debate to draw a line between art and design, an absurd distinction that only stifled creativity. That’s when La Bella Durmiente was born.”</em> —Xano Armenter</p>
-                            <p>The shade is now printed with pigmented inks on a special paper, achieving a clean, precise, and rich finish. A transparent laminate protects it from moisture and the passage of time. Two tiered black-lacquered wooden end caps frame this sculptural piece, secured with a threaded closure.</p>
-                            <p>The shade is now printed with pigmented inks on a special paper, achieving a clean, precise and rich finish. A transparent laminate protects it from moisture and the passage of time. Two tiered black-lacquered wooden end caps frame this sculptural piece, secured with a threaded closure.</p>
-                            <p>The 2025 reedition maintains the original dimensions, allowing new screens to be replaced on old structures.</p>
+                            <h3><?php _e('Awaken to a Joyful Light', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Designed by Santa & Cole co-founders Gabriel Ordeig Cole and Nina Masó, La Bella Durmiente (Sleeping Beauty) is a totemic volume that explores the expressive potential of color, playing with contrasts between warm and cold hues. The result is a visually dynamic and balanced composition. Contemplation and imagination. A composition that nods to the geometric abstraction of Piet Mondrian or Theo van Doesburg.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Born in 1986 as a defiant response to an era dominated by cold halogen lights and stark metal structures, this lamp championed colorful fluorescence (now LED) when this light source was considered blue and soulless.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e("<em>“It was a time of artistic expansion without predefined limits–very sweet, very beautiful. Critics ignited a debate to draw a line between art and design, an absurd distinction that only stifled creativity. That’s when La Bella Durmiente was born.”</em> —Xano Armenter", 'landing-euroluce25'); ?></p>
+                            <p><?php _e('The shade is now printed with pigmented inks on a special paper, achieving a clean, precise, and rich finish. A transparent laminate protects it from moisture and the passage of time. Two tiered black-lacquered wooden end caps frame this sculptural piece, secured with a threaded closure.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('The 2025 reedition maintains the original dimensions, allowing new screens to be replaced on old structures.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
@@ -389,16 +388,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Kindling a Spark</h3>
-                            <p>The Mesita GO fuses functionality with sculptural charm. Chrome legs, capped with feet resembling match heads, elevate a black-stained oak tabletop with effortless grace.</p>
-                            <p>Available in two options: a sleek flat surface or with a discreet secretaire drawer. Unusually robust for its size, it relocates easily while bearing heavy loads.</p>
+                            <h3><?php _e('Kindling a Spark.', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('The Mesita GO fuses functionality with sculptural charm. Chrome legs, capped with feet resembling match heads, elevate a black-stained oak tabletop with effortless grace.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Available in two options: a sleek flat surface or with a discreet secretaire drawer. Unusually robust for its size, it relocates easily while bearing heavy loads.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="M64" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">M64</div>
-                            <div class="author">Miguel Milá, 2024</div>
+                        <div class="name"><?php _e('M64', 'landing-euroluce25'); ?></div>
+                        <div class="author"><?php _e('Miguel Milá, 2024', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/m64/M64-Table-SantaCole-Euroluce-Enric-Badrinas-2025-2389.jpeg" data-fancybox="gallery-M64" data-caption="">
@@ -418,16 +417,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>A Historic Silhouette</h3>
-                            <p>The M64 desk lamp is the last evolution of Miguel Milá’s award-winning 1964 pendant lamp, which won the Gold Delta Award and became a landmark in Spanish design history, at its inception as a professional discipline.</p>
-                            <p>True to its origins, this version translates the lamp’s fundamental elements into a compact tabletop format, featuring a chrome metal structure that highlights its voluptuous, sensuous shade, available in 10 different finishes. It casts a focused cone of light onto the surface while allowing a soft glow to radiate through its filtered upper opening.</p>
+                            <h3><?php _e('A Historic Silhouette', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('The M64 desk lamp is the last evolution of Miguel Milá’s award-winning 1964 pendant lamp, which won the Gold Delta Award and became a landmark in Spanish design history, at its inception as a professional discipline.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('True to its origins, this version translates the lamp’s fundamental elements into a compact tabletop format, featuring a chrome metal structure that highlights its voluptuous, sensuous shade, available in 10 different finishes. It casts a focused cone of light onto the surface while allowing a soft glow to radiate through its filtered upper opening.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="cirio-pana" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">Cirio Pana</div>
-                            <div class="author">Antoni Arola, 2025</div>
+                            <div class="name"><?php _e('Cirio Pana', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Antoni Arola, 2025', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a href="/wp-content/themes/santa-cole/img/euroluce25/products/cirio-pana/Cirio-Pana-JaraVarela-CasaCosta-2025-1409.jpeg" data-fancybox="gallery-cirio-pana" data-caption="">
@@ -445,16 +444,16 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Singular Grooves</h3>
-                            <p>Cirio Pana reimagines the traditional long wax candle, a historic ritual object, through the delicate lens of porcelain. More powerful than that of its smaller counterpart, its luminous disc is encased in a shade as tall as it is wide, producing a light that is both focused and expansive. With unique nuances in every pieces, its grooved texture recalls the softness and depth of corduroy (pana in Spanish), traced by fine vertical ridges.</p>
-                            <p>Handcrafted in <a href="https://sargadelos.com/es/" target="_blank">Sargadelos</a></p>
+                            <h3><?php _e('Singular Grooves', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Cirio Pana reimagines the traditional long wax candle, a historic ritual object, through the delicate lens of porcelain. More powerful than that of its smaller counterpart, its luminous disc is encased in a shade as tall as it is wide, producing a light that is both focused and expansive. With unique nuances in every pieces, its grooved texture recalls the softness and depth of corduroy (pana in Spanish), traced by fine vertical ridges.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Handcrafted in <a href="https://sargadelos.com/es/" target="_blank">Sargadelos</a>', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="bib-luz" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">Bib Luz</div>
-                            <div class="author">Oscar Tusquets, 1986</div>
+                            <div class="name"><?php _e('Bib Luz', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Oscar Tusquets, 1986', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             
@@ -478,18 +477,18 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>A Book Among More Books</h3>
-                            <p>In 1986, triggered by the challenge of illuminating his own library, Oscar Tusquets envisioned a lamp that could integrate itself in any shelf, taking up minimal space while offering adaptable lighting. In his own words, “What better form than a book itself?”.</p>
-                            <p>With its metal book-shaped body (in white or gray aluminum), Bib Luz sits discreetly on shelves. From its “spine,” a slender, rotating arm extends, ending in an adjustable spotlight that highlights any desired corner. Multiple units can be interconnected in series, forming harmonious compositions at varying levels. The result is always brilliant, though never dazzling; ideal for those who search among the literature.</p>
+                            <h3><?php _e('A Book Among More Books', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e("In 1986, triggered by the challenge of illuminating his own library, Oscar Tusquets envisioned a lamp that could integrate itself in any shelf, taking up minimal space while offering adaptable lighting. In his own words, “What better form than a book itself?”.", 'landing-euroluce25'); ?></p>
+                            <p><?php _e('With its metal book-shaped body (in white or gray aluminum), Bib Luz sits discreetly on shelves. From its “spine,” a slender, rotating arm extends, ending in an adjustable spotlight that highlights any desired corner. Multiple units can be interconnected in series, forming harmonious compositions at varying levels. The result is always brilliant, though never dazzling; ideal for those who search among the literature.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="sylvestrina" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">Sylvestrina</div>
-                            <div class="badge-product">New Finish</div>
-                            <div class="badge-product">IF Design Product design Hannover 2021</div>
-                            <div class="author">Enric Sòria, Jordi Garcés 1974</div>
+                            <div class="name"><?php _e('Sylvestrina', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('New Finish', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Enric Sòria, Jordi Garcés 1974', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('IF Design Product design Hannover 2021', 'landing-euroluce25'); ?></div>
                             
                         </div>
                         <div class="gallery">
@@ -507,17 +506,17 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>A State-of-the-Art Oil Lamp</h3>
-                            <p>Freed of all oils, kerosene or cables, Sylvestrina is at hand, ready for any occasion. Named after a fisherman from the Costa Brava –Silvestre, a tall, lean, and elegant character-, it leaves barely a trace on the table, much like a wine bottle. A simple press on its base turns it on, adjusting the intensity between full, medium, or off.</p>
-                            <p>Sylvestrina travels flat-packed for easy transport and disassembles into three components –the battery base, light source and surrounding screen—, ensuring easy repair and a long lifespan.</p>
+                            <h3><?php _e('A State-of-the-Art Oil Lamp', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Freed of all oils, kerosene or cables, Sylvestrina is at hand, ready for any occasion. Named after a fisherman from the Costa Brava –Silvestre, a tall, lean, and elegant character-, it leaves barely a trace on the table, much like a wine bottle. A simple press on its base turns it on, adjusting the intensity between full, medium, or off.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Sylvestrina travels flat-packed for easy transport and disassembles into three components –the battery base, light source and surrounding screen—, ensuring easy repair and a long lifespan.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="shiro" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">Shiro</div>
-                            <div class="author">Antoni Arola 1998 / 2025</div>
-                            <div class="badge-product">Delta de Plata 1999</div>
+                        <div class="name"><?php _e('Shiro', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Antoni Arola 1998 / 2025', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('Delta de Plata 1999', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/shiro/Shiro-17-Bateria-Coke-Bartrina-Casa-Costa-2025-1117.jpeg" data-fancybox="gallery-shiro" data-caption="">
@@ -546,17 +545,17 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Contemplative Serenity</h3>
-                            <p>Shiro, which translate as “white” in Japanese, carries deep significance in the country’s philosophical tradition, evoking emptiness, honor, purity, and calm. Far from simply being absence of color, Shiro represents a void brimming with potential, an expression of energy contained. A spiritual openness that invites contemplation and discovery.</p>
-                            <p>This outdoor lamp draws a dialogue between architecture and nature, integrating naturally into the landscape. Its rational, refined structure does not enclose but filters light through slats arranged in a cubic form. The result is a soft, grazing illumination that creates a tranquil atmosphere, balancing the inhabited outdoor space with the open natural world.</p>
-                            <p>Available in three sizes, it can be fixed in place or stand freely. The smaller offers additional versatility: battery-operated, wired, or elevated as a beacon.</p>
+                        <h3><?php _e('Contemplative Serenity', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Shiro, which translate as “white” in Japanese, carries deep significance in the country’s philosophical tradition, evoking emptiness, honor, purity, and calm. Far from simply being absence of color, Shiro represents a void brimming with potential, an expression of energy contained. A spiritual openness that invites contemplation and discovery.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('This outdoor lamp draws a dialogue between architecture and nature, integrating naturally into the landscape. Its rational, refined structure does not enclose but filters light through slats arranged in a cubic form. The result is a soft, grazing illumination that creates a tranquil atmosphere, balancing the inhabited outdoor space with the open natural world.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Available in three sizes, it can be fixed in place or stand freely. The smaller offers additional versatility: battery-operated, wired, or elevated as a beacon.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="la-colilla" class="product-card float-right">
                         <div class="product-card-header">
-                            <div class="name">La Colilla</div>
-                            <div class="author">Carles Riart, 1976</div>
+                            <div class="name"><?php _e('La Colilla', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Carles Riart, 1976', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a  href="/wp-content/themes/santa-cole/img/euroluce25/products/colilla/Mesita GO-La Colilla-Santa Cole-Euroluce-Enric-Badrinas-2025-2445.jpeg" data-fancybox="gallery-colilla" data-caption="">
@@ -585,18 +584,18 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>Subtlety of Minimum Light</h3>
-                            <p>Some lights can only be seen at night. A sky full of stars. Fireflies dancing in an open field. The embers of a campfire, glowing as the sun fades. This lamp is designed as a companion for music, for conversation, for love. Where the night falls, La Colilla illuminates.</p>
-                            <p>Designed by Carles Riart in 1976, produced by chance and distributed by Gabriel Ordeig Cole, from his first venture Comercial Estelar, La Colilla was Santa & Cole’s first edited product back in 1985.</p>
-                            <p>Made up of a translucent tube produced in two size versions: the usual two-meter one and the recently reintroduced one-meter versión, the softly nuanced surface conceals a series of small neon bulbs inside that consume an insignificant amount of power and have an extremely long lifespan, to the point that it is delivered without a switch so it can be kept on at all times. Hanging from a delicate thread, it has an appearance of floating in mid-air. It has a variety of uses: in the bedroom or the lounge, providing helpful and guiding light in hallways, stairs or porches, and even as a children’s night light for sweet dreams.</p>
+                            <h3><?php _e('The Subtlety of Minimum Light', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e('Some lights can only be seen at night. A sky full of stars. Fireflies dancing in an open field. The embers of a campfire, glowing as the sun fades. This lamp is designed as a companion for music, for conversation, for love. Where the night falls, La Colilla illuminates.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('Designed by Carles Riart in 1976, produced by chance and distributed by Gabriel Ordeig Cole, from his first venture Comercial Estelar, La Colilla was Santa & Cole’s first edited product back in 1985.', 'landing-euroluce25'); ?></p>
+                            <p><?php _e('A translucent tube houses the small neon bulbs which provide the illumination. La Colilla pendant lamp is a low-energy light with an exceptionally long lifespan; it comes without a switch so that it is always left on. Hanging from a delicate thread, it has an appearance of floating in mid-air. It has a variety of uses: in the bedroom or the lounge, providing helpful and guiding light in hallways, stairs or porches, and even as a children’s night light for sweet dreams.', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                     <!-- Product card -->
                     <div id="cestita-alubat" class="product-card float-left">
                         <div class="product-card-header">
-                            <div class="name">Cestita Alubat</div>
-                            <div class="badge-product">New finishes</div>
-                            <div class="author">Miguel Milá, 1981</div>
+                            <div class="name"><?php _e('Cestita Alubat', 'landing-euroluce25'); ?></div>
+                            <div class="badge-product"><?php _e('New finishes', 'landing-euroluce25'); ?></div>
+                            <div class="author"><?php _e('Miguel Milá, 1981', 'landing-euroluce25'); ?></div>
                         </div>
                         <div class="gallery">
                             <a href="/wp-content/themes/santa-cole/img/euroluce25/products/cestita/Cestita_Alubat_NR_VI_NG_Enric_Badrinas_2024_2529.jpeg" data-fancybox="gallery-alubat" data-caption="">
@@ -628,9 +627,9 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                             </a>
                         </div>
                         <div class="description">
-                            <h3>A Companion for Every Adventure</h3>
-                            <p>Cestita Alubat's comfortable handle makes it suitable for all kinds of excursions—indoor or out.</p>
-                            <p>The robustness of aluminum, available in black, English green or reddish orange, contrasts with the delicacy of its original wood-and-glass version. Inspired by the traditional lanterns that light coastal homes, country estates, and open terraces, the Cesta family features structures that embrace and elevate the luminous globe, adapting it to different uses. Cestita Alubat is the sturdiest of them all: solid yet lightweight, with three light settings –full, medium or low–, it is the perfect companion for any journey</p>
+                            <h3><?php _e('A Companion for Every Adventure', 'landing-euroluce25'); ?></h3>
+                            <p><?php _e("Cestita Alubat's comfortable handle makes it suitable for all kinds of excursions—indoor or out.", 'landing-euroluce25'); ?></p>
+                            <p><?php _e('The robustness of aluminum, available in black, English green or reddish orange, contrasts with the delicacy of its original wood-and-glass version. Inspired by the traditional lanterns that light coastal homes, country estates, and open terraces, the Cesta family features structures that embrace and elevate the luminous globe, adapting it to different uses. Cestita Alubat is the sturdiest of them all: solid yet lightweight, with three light settings –full, medium or low–, it is the perfect companion for any journey', 'landing-euroluce25'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -639,18 +638,18 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
             
 			<div class="euroluce-landing">
 			<section id="downloads">
-                <h2><?php _e('Downloads', 'landing-euroluce25'); ?></h2>
+                <h2><?php _e('Download', 'landing-euroluce25'); ?></h2>
               
                 <div class="kits">
                     <a target="_blank"  href="https://online.fliphtml5.com/zugzq/nxke/">
                         <div class="kit">
-                            <img src="/wp-content/themes/santa-cole/img/euroluce25/catalogues/presskit.jpg">
+                            <img src="/wp-content/themes/santa-cole/img/euroluce25/catalogue.jpg">
                             <p><?php _e('Catálogo general', 'landing-euroluce25'); ?></p>
                         </div>
                     </a>
                     <a target="_blank"  href="https://online.fliphtml5.com/zugzq/ibmy/#p=1">
                         <div class="kit">
-                            <img src="/wp-content/themes/santa-cole/img/euroluce25/catalogues/presskit.jpg">
+                            <img src="/wp-content/themes/santa-cole/img/euroluce25/presskit.jpg">
                             <p><?php _e('Presskit', 'landing-euroluce25'); ?></p>
                         </div>
                     </a>
@@ -663,7 +662,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                 </div>
             </section>
 				<section id="contact-form">
-					<h2><?php _e('Contact form', 'landing-euroluce25'); ?></h2>
+					<h2><?php _e('Contact', 'landing-euroluce25'); ?></h2>
 					
 					
 					<?php echo do_shortcode('[contact-form-7 id="294" title="Formulario de contacto"]'); ?>

@@ -506,7 +506,7 @@ html[lang="es-ES"] {
                 overflow-hidden
                 justify-center
                 items-center
-                aspect-square;
+                aspect-4/5;
                 img {
                     @apply
                     w-full
