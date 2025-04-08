@@ -656,7 +656,7 @@ wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dis
                     <a target="_blank"  href="https://downloads.santacole.com/">
                         <div class="kit">
                             <!-- <img src="/wp-content/themes/santa-cole/img/euroluce25/catalogues/presskit.jpg"> -->
-                            <p class="dam-link"><?php _e('o mira nuestro DAM de imágenes', 'landing-euroluce25'); ?></p>
+                            <p class="dam-link"><?php _e('or check out our image DAM', 'landing-euroluce25'); ?></p>
                         </div>
                     </a>
                 </div>
